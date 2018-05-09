@@ -1,8 +1,268 @@
-${headerTag}
-${header}
-${section1}
-${section2}
-${section3}
-${section4}
-${footer}
-${scripts} 
+<title>
+${header.titlePage}
+</title>
+
+<!-- Bootstrap core CSS -->
+<link href="https://s3.amazonaws.com/stacksavingsfiles/landingpage1/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom fonts for this template -->
+<link href="https://s3.amazonaws.com/stacksavingsfiles/landingpage1/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="https://s3.amazonaws.com/stacksavingsfiles/landingpage1/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+<!-- Custom styles for this template -->
+<link href="https://s3.amazonaws.com/stacksavingsfiles/landingpage1/css/landing-page.min.css" rel="stylesheet">
+
+<!-- Navigation -->
+<nav class="navbar navbar-light bg-light static-top"><div class="container"><a class="navbar-brand" href="#">
+${header.nav.title}
+</a><a class="btn btn-primary" href="#">
+${header.nav.txtBtn}
+</a></div></nav>
+
+<!-- Masthead -->
+<header class="masthead text-white text-center">
+<div class="overlay"></div>
+<div class="container">
+<div class="row">
+<div class="col-xl-9 mx-auto">
+<h1 class="mb-5">
+${header.title}
+</h1>
+</div>
+<div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+<form class="ss-form" data-ss-form-type="singup">
+<div class="form-row">
+<div class="col-12 col-md-9 mb-2 mb-md-0">
+<input type="email" class="form-control form-control-lg ss-field" name="email" placeholder="Enter your email...">
+</div>
+<div class="col-12 col-md-3">
+<button type="submit" class="btn btn-block btn-lg btn-primary ss-button">
+${header.txtBtn}
+</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</header>
+
+<!-- Icons Grid -->
+<section class="features-icons bg-light text-center">
+<div class="container">
+<div class="row">
+<div class="col-lg-4">
+<div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+<div class="features-icons-icon d-flex">
+<i class="icon-screen-desktop m-auto text-primary"></i>
+</div>
+<h3>
+${sectionIcons.item1.title}
+</h3>
+<p class="lead mb-0">
+${sectionIcons.item1.content}
+</p>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+<div class="features-icons-icon d-flex">
+<i class="icon-layers m-auto text-primary"></i>
+</div>
+<h3>
+${sectionIcons.item2.title}
+</h3>
+<p class="lead mb-0">
+${sectionIcons.item2.content}
+</p>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="features-icons-item mx-auto mb-0 mb-lg-3">
+<div class="features-icons-icon d-flex">
+<i class="icon-check m-auto text-primary"></i>
+</div>
+<h3>
+${sectionIcons.item3.title}
+</h3>
+<p class="lead mb-0">
+${sectionIcons.item3.content}
+</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Image Showcases -->
+<section class="showcase">
+<div class="container-fluid p-0">
+<div class="row no-gutters">
+<div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('https://s3.amazonaws.com/stacksavingsfiles/landingpage1/img/bg-showcase-1.jpg');"></div>
+<div class="col-lg-6 order-lg-1 my-auto showcase-text">
+<h2>
+${sectionShowcase.item1.title}
+</h2>
+<p class="lead mb-0">
+${sectionShowcase.item1.content}
+</p>
+</div>
+</div>
+<div class="row no-gutters">
+<div class="col-lg-6 text-white showcase-img" style="background-image: url('https://s3.amazonaws.com/stacksavingsfiles/landingpage1/img/bg-showcase-2.jpg');"></div>
+<div class="col-lg-6 my-auto showcase-text">
+<h2>
+${sectionShowcase.item2.title}
+</h2>
+<p class="lead mb-0">
+${sectionShowcase.item2.content}
+</p>
+</div>
+</div>
+<div class="row no-gutters">
+<div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('https://s3.amazonaws.com/stacksavingsfiles/landingpage1/img/bg-showcase-3.jpg');"></div>
+<div class="col-lg-6 order-lg-1 my-auto showcase-text">
+<h2>
+${sectionShowcase.item3.title}
+</h2>
+<p class="lead mb-0">
+${sectionShowcase.item3.content}
+</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Testimonials -->
+<section class="testimonials text-center bg-light">
+<div class="container">
+<h2 class="mb-5">
+${sectionTestimonials.title}
+</h2>
+<div class="row">
+<div class="col-lg-4">
+<div class="testimonial-item mx-auto mb-5 mb-lg-0">
+<img class="img-fluid rounded-circle mb-3" src="https://s3.amazonaws.com/stacksavingsfiles/landingpage1/img/testimonials-1.jpg" alt="">
+<h5>
+${sectionTestimonials.person1.name}
+</h5>
+<p class="font-weight-light mb-0">
+${sectionTestimonials.person1.comment}
+</p>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="testimonial-item mx-auto mb-5 mb-lg-0">
+<img class="img-fluid rounded-circle mb-3" src="https://s3.amazonaws.com/stacksavingsfiles/landingpage1/img/testimonials-2.jpg" alt="">
+<h5>
+${sectionTestimonials.person2.name}
+</h5>
+<p class="font-weight-light mb-0">
+${sectionTestimonials.person2.comment}
+</p>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="testimonial-item mx-auto mb-5 mb-lg-0">
+<img class="img-fluid rounded-circle mb-3" src="https://s3.amazonaws.com/stacksavingsfiles/landingpage1/img/testimonials-3.jpg" alt="">
+<h5>
+${sectionTestimonials.person3.name}
+</h5>
+<p class="font-weight-light mb-0">
+${sectionTestimonials.person3.comment}
+</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Call to Action -->
+<section class="call-to-action text-white text-center">
+<div class="overlay"></div>
+<div class="container">
+<div class="row">
+<div class="col-xl-9 mx-auto">
+<h2 class="mb-4">
+${sectionAction.title}
+</h2>
+</div>
+<div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+<form>
+<div class="form-row">
+<div class="col-12 col-md-9 mb-2 mb-md-0">
+<input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
+</div>
+<div class="col-12 col-md-3">
+<button type="submit" class="btn btn-block btn-lg btn-primary">
+${sectionAction.txtBtn}
+</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="footer bg-light">
+<div class="container">
+<div class="row">
+<div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+<ul class="list-inline mb-2">
+<li class="list-inline-item">
+<a href="#">
+${footer.link1}
+</a>
+</li>
+<li class="list-inline-item">&sdot;</li>
+<li class="list-inline-item">
+<a href="#">
+${footer.link2}
+</a>
+</li>
+<li class="list-inline-item">&sdot;</li>
+<li class="list-inline-item">
+<a href="#">
+${footer.link3}
+</a>
+</li>
+<li class="list-inline-item">&sdot;</li>
+<li class="list-inline-item">
+<a href="#">
+${footer.link4}
+</a>
+</li>
+</ul>
+<p class="text-muted small mb-4 mb-lg-0">
+${footer.copy}
+</p>
+</div>
+<div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+<ul class="list-inline mb-0">
+<li class="list-inline-item mr-3">
+<a href="#">
+<i class="fa fa-facebook fa-2x fa-fw"></i>
+</a>
+</li>
+<li class="list-inline-item mr-3">
+<a href="#">
+<i class="fa fa-twitter fa-2x fa-fw"></i>
+</a>
+</li>
+<li class="list-inline-item">
+<a href="#">
+<i class="fa fa-instagram fa-2x fa-fw"></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="https://s3.amazonaws.com/stacksavingsfiles/landingpage1/vendor/jquery/jquery.min.js"></script>
+<script src="https://s3.amazonaws.com/stacksavingsfiles/landingpage1/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>    
