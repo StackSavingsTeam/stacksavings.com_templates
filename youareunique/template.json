@@ -1,0 +1,24 @@
+{ 
+  "header": { 
+   "titlePage": "skgsagkas", 
+   "title": "You are Unique, Make the Most of It",
+   "image":"https://ionsecul.sirv.com/layout1/stephen-kennedy-552442-unsplash.jpg?profile=Example",
+   "txtBtn": "Sign up!"
+  },
+  "sectionShowcase": {
+    "item1": {
+      "title": "You already have an audience, help grow it and earn more",
+      "content": "You work hard to build your channel and audience. Let us help you earn more by creating blog posts from your video content and presenting it on an optimized website. Earn additional revenue without having to spend time building and promoting your own website. Your audience probably wants more of you. Be in more places at once.",
+      "image":"https://ionsecul.sirv.com/layout1/gian-cescon-637962-unsplash.jpg?profile=Example"
+    },
+    "item2": {
+      "title": "How it works",
+      "content": "Getting started is easy, just submit your email below and we will contact you with additional information. There is no cost to apply to work with us. Content creators of any type are welcome to apply. You work hard to build your channel and audience. Let us help you earn more by creating blog posts from your video content and presenting it on an optimized website. Earn additional revenue without having to spend time building and promoting your own website. Your audience probably wants more of you. Be in more places at once.",
+      "image":"https://ionsecul.sirv.com/layout1/jakob-owens-464903-unsplash.jpg?profile=Example"
+    }
+  },
+  "sectionAction": {
+     "title": "Ready to get started? Sign up now!",
+     "txtBtn": "Sign up!"
+  }
+}
