@@ -1,4 +1,0 @@
-
-
-Sounds like the Eclipse settings for library dependencies is off. You can generate them from Maven with the command "mvn eclipse:eclipse" when you are in the bks-api-regression-cucumber-java directory
-10:02 then go the Eclipse and refresh the project and do a "Project" -> "Clean…"
