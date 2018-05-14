@@ -1,0 +1,75 @@
+  "header": {
+    "titlePage": "Trial Task",
+    "nav": {
+      "s1_title": "intro",
+      "s1_anchor": "Home",
+      "s2_title": "About",
+      "s2_anchor": "about",
+      "s3_title": "Works",
+      "s3_anchor": "portfolio",
+      "s4_title": "Contact",
+      "s4_anchor": "contact"
+    }
+  },
+  "sectionIntro": {
+    "item1": {
+      "title": "Fully Responsive",
+      "content": "This theme will look great on any device no matter the size!"
+    },
+    "item2": {
+      "title": "Bootstrap 4 Ready",
+      "content": "Featuring the latest build of the new Bootstrap 4 framework!"
+    },
+     "item3": {
+      "title": "Easy to Use",
+      "content": "Ready to use with your own content or customize the source files!"
+    }
+  },
+  "sectionAbout": {
+      "title": "About us",
+      "heading": "We’ve been building unique digital products, platforms, and experiences for the past 6 years.",
+      "h2": "Lorem ipsum dolor sit amet, consectetur adipiscing elite storium paralate",
+      "h3": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "p": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Libero justo laoreet sit amet cursus sit amet dictum sit. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+
+  },
+  "sectionWorks": {
+    "title": "What people are saying...",
+    "heading": "We’ve been building unique digital products, platforms, and experiences for the past 6 years.",
+    "work1": {
+      "title": "Portfolio title",
+      "description": "Duo te dico volutpat, unum elit oblique per id. Ne duo mollis sapientem intellegebat. Per at augue vidisse percipit, pri vocibus assueverit interesset ut, no dolore luptatum incorrupte nec. In mentitum forensibus nec, nibh eripuit ut pri, tale illud voluptatum ut sea. Sed oratio repudiare ei, cum an magna labitur, eu atqui augue mei. Pri consul detracto eu, solet nusquam accusam ex vim, an movet interesset necessitatibus mea.",
+      "image":"img/works/1.jpg",
+      "thumb":"img/works/thumbs/1.jpg"
+    },
+    "work2": {
+      "title": "Portfolio title",
+      "description": "Duo te dico volutpat, unum elit oblique per id. Ne duo mollis sapientem intellegebat. Per at augue vidisse percipit, pri vocibus assueverit interesset ut, no dolore luptatum incorrupte nec. In mentitum forensibus nec, nibh eripuit ut pri, tale illud voluptatum ut sea. Sed oratio repudiare ei, cum an magna labitur, eu atqui augue mei. Pri consul detracto eu, solet nusquam accusam ex vim, an movet interesset necessitatibus mea.",
+      "image":"img/works/2.jpg",
+      "thumb":"img/works/thumbs/2.jpg"
+    },
+    "work3": {
+      "title": "Portfolio title",
+      "description": "Duo te dico volutpat, unum elit oblique per id. Ne duo mollis sapientem intellegebat. Per at augue vidisse percipit, pri vocibus assueverit interesset ut, no dolore luptatum incorrupte nec. In mentitum forensibus nec, nibh eripuit ut pri, tale illud voluptatum ut sea. Sed oratio repudiare ei, cum an magna labitur, eu atqui augue mei. Pri consul detracto eu, solet nusquam accusam ex vim, an movet interesset necessitatibus mea.",
+      "image":"img/works/3.jpg",
+      "thumb":"img/works/thumbs/3.jpg"
+    },
+    "work4": {
+      "title": "Portfolio title",
+      "description": "Duo te dico volutpat, unum elit oblique per id. Ne duo mollis sapientem intellegebat. Per at augue vidisse percipit, pri vocibus assueverit interesset ut, no dolore luptatum incorrupte nec. In mentitum forensibus nec, nibh eripuit ut pri, tale illud voluptatum ut sea. Sed oratio repudiare ei, cum an magna labitur, eu atqui augue mei. Pri consul detracto eu, solet nusquam accusam ex vim, an movet interesset necessitatibus mea.",
+      "image":"img/works/4.jpg",
+      "thumb":"img/works/thumbs/4.jpg"
+    },
+
+  },
+  "sectionContact": {
+     "title": "Contact Us",
+     "heading": "If you have any question or just want to say 'hello' to Alstar web studio please fill out form below and we will be get in touch with you within 24 hours. ",
+     "btntxt": "Send Message"
+  },
+
+  "footer": {
+    "credits": " Designed by pbussi ",
+    "copy": "&copy; Trial Task 2018. All Rights Reserved."
+  }
+}
