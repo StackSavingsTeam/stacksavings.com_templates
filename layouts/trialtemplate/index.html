@@ -31,17 +31,17 @@
       </div>
       <div class="navigation collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav">
-          <li class="current"><a href="#${header.nav.s1_anchor}">${header.nav.s1_title}</a></li>
-          <li><a href="#${header.nav.s2_anchor}">${header.nav.s2_title}</a></li>
-          <li><a href="#${header.nav.s3_anchor}">${header.nav.s3_title}</a></li>
-          <li><a href="#${header.nav.s4_anchor}">${header.nav.s4_title}</a></li>
+          <li class="current"><a href="#intro">${header.nav.s1_title}</a></li>
+          <li><a href="#about">${header.nav.s2_title}</a></li>
+          <li><a href="#works">${header.nav.s3_title}</a></li>
+          <li><a href="#contact">${header.nav.s4_title}</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
   <!-- intro area -->
-  <div id="${header.nav.s1_anchor}">
+  <div id="intro">
     <div class="intro-text">
       <div class="container">
         <div class="col-md-12">
@@ -56,7 +56,7 @@
   </div>
 
   <!-- About -->
-  <section id="${header.nav.s2_anchor}" class="home-section bg-white">
+  <section id="about" class="home-section bg-white">
     <div class="container">
       <div class="row">
         <div class="col-md-offset-2 col-md-8">
@@ -84,7 +84,7 @@
   </section>
 
   <!-- Works -->
-  <section id="${header.nav.s3_anchor}" class="home-section bg-gray">
+  <section id="works" class="home-section bg-gray">
     <div class="container">
       <div class="row">
         <div class="col-md-offset-2 col-md-8">
@@ -128,7 +128,7 @@
   </section>
 
   <!-- Contact -->
-  <section id="${header.nav.s3_anchor}" class="home-section bg-gray">
+  <section id="contact" class="home-section bg-gray">
     <div class="container">
       <div class="row">
         <div class="col-md-offset-2 col-md-8">
@@ -194,7 +194,7 @@
             <i class="fa fa-map-marker fa-4x"></i>
             <h5>Main Office</h5>
             <p>
-              109 Borough High Street,<br />London SE1 1NL
+              ${sectionContact.adress},<br />${sectionContact.city}
             </p>
           </div>
         </div>
@@ -203,7 +203,7 @@
             <i class="fa fa-phone fa-4x"></i>
             <h5>Call</h5>
             <p>
-              +1 111 9998 7774<br> +1 245 4544 6855
+              ${sectionContact.phone1}<br> ${sectionContact.phone2}
 
             </p>
           </div>
@@ -213,7 +213,7 @@
             <i class="fa fa-envelope fa-4x"></i>
             <h5>Email us</h5>
             <p>
-              hello@alstarstudio.com<br />sales@alstarstudio.com
+                ${sectionContact.email1}<br> ${sectionContact.email2}
             </p>
           </div>
         </div>
