@@ -65,7 +65,13 @@
   "sectionContact": {
      "title": "Contact Us",
      "heading": "If you have any question or just want to say 'hello' to Alstar web studio please fill out form below and we will be get in touch with you within 24 hours. ",
-     "btntxt": "Send Message"
+     "btntxt": "Send Message",
+     "address": "109 Borough High Street",
+     "city": "London SE1 1NL",
+     "phone1":"+1 111 9998 7774",
+     "phone2":"+1 111 9998 7774",
+     "email1":"pbussi@gmail.com",
+     "email2":"pbussi@gmail.com",
   },
 
   "footer": {
