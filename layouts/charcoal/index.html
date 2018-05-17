@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>You already have an audience, help grow it and earn more</title>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.min.css">
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <header class="page-header">           
+            <div class="brief">
+                <div class="wrapper">
+                    <h1>You are Unique, Make the Most of It</h1>            
+                    <form>
+                        <input type="text" class="form-control input-lg" placeholder="Enter your email">
+                        <button type="button" class="btn btn-lg" onclick="message.show();">SIGN UP</button>                        
+                    </form>
+                </div>                            
+            </div>
+        </header> 
+        <section class="dark-background">
+            <div class="wrapper">
+                <img src="http://i65.tinypic.com/2zoluab.jpg" class="img-circle img-responsive center-block"/>
+                <h1>You already have an audience, help grow it and earn more</h1>            
+                <p>
+                    You work hard to build your channel and audience. Let us help you earn more by creating blog posts from your video content and presenting it on an optimized website. Earn additional revenue without having to spend time building and promoting your own website. Your audience probably wants more of you. Be in more places at once.
+                </p>                 
+                <a class="btn-get-started" onclick="getStarted.go();">GET STARTED NOW</a> 
+            </div>
+        </section>  
+        <section>
+            <div class="wrapper">
+                <img src="http://i67.tinypic.com/29vm8ef.jpg" class="img-circle img-responsive center-block"/>
+                <h1>How it works </h1>            
+                <p>
+                    Getting started is easy, just submit your email below and we will contact you with additional information. There is no cost to apply to work with us. Content creators of any type are welcome to apply. You work hard to build your channel and audience. Let us help you earn more by creating blog posts from your video content and presenting it on an optimized website.</p>
+                <p> 
+                    Earn additional revenue without having to spend time building and promoting your own website. Your audience probably wants more of you. Be in more places at once.
+                </p>   
+                <a class="btn-get-started" onclick="getStarted.go();">GET STARTED NOW</a> 
+            </div>
+        </section>  
+        <section class="dark-background">
+            <div class="wrapper">
+                <h1>Ready to get started? Sign up now!</h1>
+                <form  id="get-started">
+                    <input type="text" class="form-control input-lg" placeholder="Enter your email...">
+                    <button type="button" class="btn btn-lg" onclick="message.show();">SIGN UP</button>                        
+                </form> 
+                <div class="clearfix"></div>          
+            </div>
+        </section>
+        <section class="window" id="success">
+            <div class="message">      
+                <div class="content">	   
+                    <img src="http://i65.tinypic.com/t98eag.jpg" />                                              
+                    <p>Thank you for getting started<br>We will get back to you shortly</p>            
+                </div>
+                <footer class="footer">					
+                    <a class="btn" onclick="message.hide();">CLOSE</a>                     
+                </footer>	               
+            </div>    
+        </section>      
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>    
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script>
+                        message = {
+                            id: "success",
+                            show: function () {
+                                $("#" + this.id).fadeIn(1000);
+                            },
+                            hide: function () {
+                                $("#" + this.id).fadeOut(1000);
+                            }
+
+                        };
+
+                        getStarted = {
+                            go: function () {
+                                move = $("#get-started").offset().top - 30;
+                                $('html, body').animate({scrollTop: move}, {duration: 1000, easing: "swing"});
+                            }
+                        };
+        </script>
+    </body>
+</html>
