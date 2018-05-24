@@ -59,7 +59,7 @@ CSS structure
 /*
 Fontawesome
 =========================== */
-@import url('font-awesome.css?spycache');
+/*@import url('font-awesome.css');*/
 @import url('icon-set.css');
 
 /*
