@@ -1,0 +1,46 @@
+/* ==============================================================
+
+
+
+================================================================= */
+
+/*
+Color
+================================================== */
+
+a, a:hover, .color{
+	color:#f97e76;
+}
+
+/*
+Background color
+================================================== */
+.bs-header, .heading span, footer{
+	background-color:#f97e76;
+}
+
+/*
+Border color
+================================================== */
+header, 
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus,
+a.thumbnail:hover,
+a.thumbnail:focus,
+ul.sitemap-list{
+	border-color:#f97e76;
+}
