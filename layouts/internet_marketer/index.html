@@ -1,0 +1,333 @@
+
+<html>
+
+<head>
+    <title>Custom title</title>
+    <link rel="stylesheet" href="https://layouts.stacksavings.com/arconBlogStandar/assets/css/master.css">
+    <link rel="stylesheet" href="https://layouts.stacksavings.com/arconBlogStandar/assets/css/responsive.css">
+</head>
+
+<body>
+    <div id="loader-overlay">
+        <div class="loader-wrapper">
+            <div class="arcon-pulse"></div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <section class="title-hero-bg about-cover-bg" data-stellar-background-ratio="0.2" style="background-image: url('${header.image}');">
+            <div class="container">
+                <div class="page-title text-center white-color">
+                    <h1>${header.title}</h1>
+                    <h4 class="text-uppercase mt-30">${header.subtitle}</h4>
+                </div>
+            </div>
+        </section>
+        <section class="dark-bg pt-0 pb-0">
+            <div class="container-fluid">
+                <div class="row row-flex flex-center">
+                    <div class="col-md-6 col-sm-12 dark-bg">
+                        <div class="col-inner pt-70 pb-50 spacer white-color">
+                            <h2 class="merriweather-font">${aboutus.title}</h2>
+                            <h4 class="text-uppercase source-font blue-color">${aboutus.subtitle}</h4>
+                            <div class="mt-30">
+                                <p>${aboutus.paragraph}</p>
+                                <p class="mt-20">
+                                    <a href="${aboutus.video}" class="btn btn-color btn-circle popup-youtube">
+                                        ${aboutus.txtbtn}
+                                        <span class="icon">
+                                            <i class="fa fa-play"></i>
+                                        </span>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 bg-flex-cover" style="background-image:url('${aboutus.image}');"> </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row row-flex flex-center">
+                    <div class="col-md-4 col-sm-12 white-bg">
+                        <div class="col-inner spacer">
+                            <h2 class="merriweather-font">${aboutus.skills.title}</h2>
+                            <h4 class="text-uppercase source-font dark-color">${aboutus.skills.subtitle}</h4>
+                            <div class="pt-40 pb-20">
+                                <div class="progress-bar-title">${aboutus.skills.skill1.title}</div>
+                                <div class="progress">
+                                    <div class="progress-bar" data-width="${aboutus.skills.skill1.percentage}">
+                                        <span>${aboutus.skills.skill1.percentage}%</span>
+                                    </div>
+                                </div>
+                                <div class="progress-bar-title">${aboutus.skills.skill2.title}</div>
+                                <div class="progress">
+                                    <div class="progress-bar" data-width="${aboutus.skills.skill2.percentage}">
+                                        <span>${aboutus.skills.skill2.percentage}%</span>
+                                    </div>
+                                </div>
+                                <div class="progress-bar-title">${aboutus.skills.skill3.title}</div>
+                                <div class="progress">
+                                    <div class="progress-bar" data-width="${aboutus.skills.skill3.percentage}">
+                                        <span>${aboutus.skills.skill3.percentage}%</span>
+                                    </div>
+                                </div>
+                                <div class="progress-bar-title">${aboutus.skills.skill4.title}</div>
+                                <div class="progress">
+                                    <div class="progress-bar" data-width="${aboutus.skills.skill4.percentage}">
+                                        <span>${aboutus.skills.skill4.percentage}%</span>
+                                    </div>
+                                </div>
+                                <div class="progress-bar-title">${aboutus.skills.skill5.title}</div>
+                                <div class="progress">
+                                    <div class="progress-bar" data-width="${aboutus.skills.skill5.percentage}">
+                                        <span>${aboutus.skills.skill5.percentage}%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="col-inner">
+                            <div class="owl-carousel team-slider">
+                                <div class="team-member-container gallery-image-hover">
+                                    <img src="${aboutus.team.member1.image}" class="img-responsive" alt="team-01">
+                                    <div class="member-caption">
+                                        <div class="member-description text-center">
+                                            <div class="member-description-wrap">
+                                                <h4 class="member-title">${aboutus.team.member1.title}</h4>
+                                                <p class="member-subtitle">${aboutus.team.member1.subtitle}</p>
+                                                <ul class="member-icons">
+                                                    <li class="social-icon">
+                                                        <a href="${aboutus.team.member1.facebook}">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="social-icon">
+                                                        <a href="${aboutus.team.member1.twitter}">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="social-icon">
+                                                        <a href="${aboutus.team.member1.youtube}">
+                                                            <i class="fa fa-youtube"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-member-container gallery-image-hover">
+                                    <img src="${aboutus.team.member2.image}" class="img-responsive" alt="team-02">
+                                    <div class="member-caption">
+                                        <div class="member-description text-center">
+                                            <div class="member-description-wrap">
+                                                <h4 class="member-title">${aboutus.team.member2.title}</h4>
+                                                <p class="member-subtitle">${aboutus.team.member2.subtitle}</p>
+                                                <ul class="member-icons">
+                                                    <li class="social-icon">
+                                                        <a href="${aboutus.team.member2.facebook}">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="social-icon">
+                                                        <a href="${aboutus.team.member2.twitter}">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="social-icon">
+                                                        <a href="${aboutus.team.member2.youtube}">
+                                                            <i class="fa fa-youtube"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-member-container gallery-image-hover">
+                                    <img src="${aboutus.team.member3.image}" class="img-responsive" alt="team-03">
+                                    <div class="member-caption">
+                                        <div class="member-description text-center">
+                                            <div class="member-description-wrap">
+                                                <h4 class="member-title">${aboutus.team.member3.title}</h4>
+                                                <p class="member-subtitle">${aboutus.team.member3.subtitle}</p>
+                                                <ul class="member-icons">
+                                                    <li class="social-icon">
+                                                        <a href="${aboutus.team.member3.facebook}">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="social-icon">
+                                                        <a href="${aboutus.team.member3.twitter}">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="social-icon">
+                                                        <a href="${aboutus.team.member3.youtube}">
+                                                            <i class="fa fa-youtube"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-member-container gallery-image-hover">
+                                    <img src="${aboutus.team.member4.image}" class="img-responsive" alt="team-04">
+                                    <div class="member-caption">
+                                        <div class="member-description text-center">
+                                            <div class="member-description-wrap">
+                                                <h4 class="member-title">${aboutus.team.member4.title}</h4>
+                                                <p class="member-subtitle">${aboutus.team.member4.subtitle}</p>
+                                                <ul class="member-icons">
+                                                    <li class="social-icon">
+                                                        <a href="${aboutus.team.member4.facebook}">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="social-icon">
+                                                        <a href="${aboutus.team.member4.twitter}">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="social-icon">
+                                                        <a href="${aboutus.team.member4.youtube}">
+                                                            <i class="fa fa-youtube"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 blue-bg">
+                        <div class="col-inner spacer white-color">
+                            <h2 class="merriweather-font">${aboutus.whatwedo.title}</h2>
+                            <h4 class="text-uppercase source-font dark-color wow fadeInUp" data-wow-delay="0.2s">${aboutus.whatwedo.subtitle}</h4>
+                            <div class="pt-40 pb-20">
+                                <div class="col-md-12 feature-box text-left mb-50 col-sm-6">
+                                    <div class="pull-left">
+                                        <i class="mdi ${aboutus.whatwedo.item1.icon} font-60px white-icon"></i>
+                                    </div>
+                                    <div class="pull-right">
+                                        <h5 class="mt-0">${aboutus.whatwedo.item1.title}</h5>
+                                        <p>${aboutus.whatwedo.item1.paragraph}</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 feature-box text-left mb-50 col-sm-6">
+                                    <div class="pull-left">
+                                        <i class="mdi ${aboutus.whatwedo.item2.icon} font-60px white-icon"></i>
+                                    </div>
+                                    <div class="pull-right">
+                                        <h5 class="mt-0">${aboutus.whatwedo.item2.title}</h5>
+                                        <p>${aboutus.whatwedo.item2.paragraph}</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 feature-box text-left col-sm-6">
+                                    <div class="pull-left">
+                                        <i class="mdi ${aboutus.whatwedo.item3.icon} font-60px white-icon"></i>
+                                    </div>
+                                    <div class="pull-right">
+                                        <h5 class="mt-0">${aboutus.whatwedo.item3.title}</h5>
+                                        <p>${aboutus.whatwedo.item3.paragraph}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="parallax-bg-4 fixed-bg" data-stellar-background-ratio="0.2" style="background-image: url('${action.image}');">
+            <div class="overlay-bg-dark"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center white-color col-md-offset-3">
+                        <h2 class="merriweather-font font-50px">${action.title}</h2>
+                        <h4 class="text-uppercase source-font dark-color">${action.subtitle}</h4>
+                        <p class="font-20px mt-20 line-height-30">${action.paragraph}</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer" id="footer-fixed">
+            <div class="footer-main">
+                <div class="container">
+                    <div class="row justify-content-md-center">
+                        <div class="col-sm-12 col-md-8">
+                            <div class="widget widget-text text-center">
+                                <div class="logo logo-footer">
+                                    <a href="${footer.urlLink}">
+                                        <img class="logo logo-display" src="${footer.logo}" alt="">
+                                    </a>
+                                </div>
+                                <form class="formContactUs">
+                                  <div class="form-group col-sm-6">
+                                    <label>${footer.form.label1}</label>
+                                    <input type="text" class="form-control" id="nombre">
+                                  </div>
+                                  <div class="form-group col-sm-6">
+                                    <label>${footer.form.label2}</label>
+                                    <input type="text" class="form-control" id="email">
+                                  </div>
+                                  <div class="form-group col-sm-6">
+                                    <label>${footer.form.label3}</label>
+                                    <input type="text" class="form-control" id="marketing">
+                                  </div>
+                                  <div class="form-group col-sm-6">
+                                    <label>${footer.form.label7}</label>
+                                    <input type="text" class="form-control" id="salario">
+                                  </div>
+                                  <div class="form-group col-sm-12">
+                                    <label>${footer.form.label8}</label>
+                                    <input type="text" class="form-control" id="salario">
+                                  </div>
+                                  <div class="form-check col-sm-12">
+                                    <label>${footer.form.label4}</label>
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">${footer.form.label5}</label>
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">${footer.form.label6}</label>
+                                  </div>
+                                  <button type="submit" class="btn btn-primary">${footer.form.submit_btn}</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                            <ul class="social-media">
+                                <li>
+                                    <a href="${footer.copyright.socialMedia.linkedin}" class="fa fa-linkedin"></a>
+                                </li>
+                                <li>
+                                    <a href="${footer.copyright.socialMedia.facebook}" class="fa fa-facebook"></a>
+                                </li>
+                                <li>
+                                    <a href="${footer.copyright.socialMedia.twitter}" class="fa fa-twitter"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                            <div class="copy-right text-right">${footer.copyright.text}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <a href="#" id="back-to-top" title="Back to top">&uarr;</a>
+    </div>
+    <script src="https://layouts.stacksavings.com/arconBlogStandar/assets/js/jquery.min.js"></script>
+    <script src="https://layouts.stacksavings.com/arconBlogStandar/assets/js/validator.js"></script>
+    <script src="https://layouts.stacksavings.com/arconBlogStandar/assets/js/plugins.js"></script>
+    <script src="https://layouts.stacksavings.com/arconBlogStandar/assets/js/bootsnav.js"></script>
+    <script src="https://layouts.stacksavings.com/arconBlogStandar/assets/js/master.js"></script>
+</body>
+</html>
