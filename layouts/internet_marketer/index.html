@@ -264,35 +264,43 @@
                                         <img class="logo logo-display" src="${footer.logo}" alt="">
                                     </a>
                                 </div>
-                                <form class="formContactUs">
-                                  <div class="form-group col-sm-6">
-                                    <label>${footer.form.label1}</label>
-                                    <input type="text" class="form-control" id="nombre">
+                                <form class="formContactUs ss-form" data-ss-form-type="contact">
+                                  <div class="form-row">
+                                    <div class="col-sm-6">
+                                      <label>${footer.form.label1}</label>
+                                      <input type="text" class="form-control ss-field" name="name">
+                                    </div>
+                                    <div class="col-sm-6">
+                                      <label>${footer.form.label2}</label>
+                                      <input type="text" class="form-control ss-field" name="email">
+                                    </div>
                                   </div>
-                                  <div class="form-group col-sm-6">
-                                    <label>${footer.form.label2}</label>
-                                    <input type="text" class="form-control" id="email">
+                                  <div class="form-row">
+                                    <div class="col-sm-6">
+                                      <label>${footer.form.label3}</label>
+                                      <input type="text" class="form-control ss-field" name="experience_marketing">
+                                    </div>
+                                    <div class="col-sm-6">
+                                      <label>${footer.form.label7}</label>
+                                      <input type="text" class="form-control ss-field" name="salary">
+                                    </div>
                                   </div>
-                                  <div class="form-group col-sm-6">
-                                    <label>${footer.form.label3}</label>
-                                    <input type="text" class="form-control" id="marketing">
+                                  <div class="form-row">
+                                    <div class="col-sm-12">
+                                      <label>${footer.form.label8}</label>
+                                      <input type="text" class="form-control ss-field" name="other_experience">
+                                    </div>
                                   </div>
-                                  <div class="form-group col-sm-6">
-                                    <label>${footer.form.label7}</label>
-                                    <input type="text" class="form-control" id="salario">
+                                  <div class="form-row">
+                                    <div class="col-sm-12">
+                                      <label>${footer.form.label4}</label>
+                                      <input type="radio" class="ss-field" name="english_lang" value="yes" checked="checked">
+                                      <label>${footer.form.label5}</label>
+                                      <input type="radio" class="ss-field" name="english_lang" value="no">
+                                      <label>${footer.form.label6}</label>
+                                    </div>
                                   </div>
-                                  <div class="form-group col-sm-12">
-                                    <label>${footer.form.label8}</label>
-                                    <input type="text" class="form-control" id="salario">
-                                  </div>
-                                  <div class="form-check col-sm-12">
-                                    <label>${footer.form.label4}</label>
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">${footer.form.label5}</label>
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">${footer.form.label6}</label>
-                                  </div>
-                                  <button type="submit" class="btn btn-primary">${footer.form.submit_btn}</button>
+                                  <button type="submit" class="btn btn-primary ss-button">${footer.form.submit_btn}</button>
                                 </form>
                             </div>
                         </div>
