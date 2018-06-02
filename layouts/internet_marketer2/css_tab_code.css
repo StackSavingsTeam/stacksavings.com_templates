@@ -1,0 +1,45 @@
+.justify-content-md-center{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center !important;
+}
+
+.logo{
+  display:inline-block;
+}
+
+.text-center{
+  text-align:center;
+}
+
+.footer-main{
+  padding: 5px 0;
+  padding-top:15px;
+}
+
+.formContactUs .form-row > div{
+  margin-bottom:15px;
+  text-align:left;
+}
+
+.formContactUs .form-row label{
+  color:white;
+}
+
+.formContactUs .form-row input{
+  border-radius:4px;
+  height:35px;
+  padding:5px 10px;
+}
+
+.formContactUs .form-row input[type="radio"]{
+  height:15px;
+  margin-left:15px;
+}
+
+.formContactUs .btn{
+  margin-top:15px;
+  padding: 0 20px;
+  height: 38px;
+  line-height: 36px;
+}
