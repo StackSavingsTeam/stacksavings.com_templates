@@ -1,0 +1,259 @@
+{
+	"title":"StackSavings",
+	"menus":{
+		"home":{
+			"title":"Home",
+			"opt1":"",
+			"opt2":"",
+			"opt3":"",
+			"opt4":"",
+			"opt5":""
+		},
+		"about":{
+			"title":"About"
+		},
+		"blog":{
+			"title":"StackSavings Post"
+		},
+		"pages":{
+			"title":"Pages",
+			"opt1":"Services",
+			"opt2":"Our team",
+			"opt3":"Help",
+			"opt4":"Site map",
+			"opt5":"Item detail",
+			"opt6":"A blog post",
+			"opt7":"Register",
+			"opt8":"Home member login",
+			"opt9":"Member dasboard",
+			"opt10":"Edit profile",
+			"opt11":"Change password",
+			"opt12":"Member portfolio",
+			"opt13":"Member collections",
+			"opt14":"Upload item",
+			"opt15":"Pricing table",
+			"opt16":"Error 404"
+		},
+		"component":{
+			"title":"Components",
+			"opt1":"Fluid grid",
+			"opt2":"Typography",
+			"opt3":"Buttons",
+			"opt4":"Images",
+			"opt5":"Tabs",
+			"opt6":"Collapse",
+			"opt7":"Alert",
+			"opt8":"Form",
+			"opt9":"Icons",
+			"opt10":"Default grid"
+		},
+		"browse":{
+			"title":"Browse file",
+			"opt1":{
+				"title":"Web design",
+				"opt1":"HTML/CSS",
+				"opt2":"Web font",
+				"opt3":"Icon design",
+				"opt4":"Web interface"
+			},
+			"opt2":{
+				"title":"Art design",
+				"opt1":"Digital painting",
+				"opt2":"Logo design",
+				"opt3":"Hand Drawn Illustration",
+				"opt4":"Photoshop",
+				"opt5":"Vector Graphics",
+				"opt6":"3D Graphics",
+				"opt7":"Vector",
+				"opt8":"Typography"
+			},
+			"opt3":{
+				"title":"Print design",
+				"opt1":"Book covers",
+				"opt2":"Business cards",
+				"opt3":"Tshirt design",
+				"opt4":"Posters"
+			},
+			"opt4":{
+				"title":"UI elements",
+				"opt1":"UI/UX responsive",
+				"opt2":"Audio players",
+				"opt3":"Form and button",
+				"opt4":"Hand Drawn Illustration",
+				"opt5":"Navigation",
+				"opt6":"Image frame",
+				"opt7":"Search",
+				"opt8":"Admin panel"
+			},
+			"opt5":{
+				"title":"Wallpapers",
+				"opt1":"Desktop wallpapers",
+				"opt2":"iPad wallpapers",
+				"opt3":"iPhone wallpapers"
+			},
+			"opt6":{
+				"title":"Photography",
+				"opt1":"Business",
+				"opt2":"Nature",
+				"opt3":"Building",
+				"opt4":"Objects",
+				"opt5":"Beauty"
+			}
+		},
+		"contact":{
+			"title":"Contact"
+		},
+		"social":{
+			"opt1":"icon-facebook",
+			"opt2":"icon-twitter",
+			"opt3":"icon-linkedin",
+			"opt4":"icon-google-plus",
+			"opt5":"icon-pinterest"
+		}
+	},
+	"header":{
+		"imgBanner":"https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/logo.png",
+		"hrefBanner":"https://layouts.stacksavings.com/themeForestResponsive18Augst/html/index.html",
+		"textSearch":"Start searching...",
+		"login":{
+			"button1":"Login",
+			"button2":"Register free",
+			"modal":{
+				"title":"Login member",
+				"username":"Username",
+				"password":"Password",
+				"remenber":"Remember me",
+				"close":"Close",
+				"send":"Login now"
+			}
+		}
+		
+	},
+	"titlePost":{
+		"title":"xxx post",
+		"text":"Necessitatibus te diceret eruditi dolores ut vim. Oblique signiferumque vel cu."
+	},
+	"article":{
+		"title":"Tollit fastidii expetendis cum id eam ex dictas indoctum",
+		"img":"https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/blog/img1.jpg",
+		"metaData":{
+			"user":"John doe",
+			"dateTime":"24 July 13",
+			"cat":"Web design",
+			"tag":{
+				"1":"Web",
+				"2":"Design",
+				"3":"Font",
+				"4":"Typography"
+			},
+			"cantComen":"4 comments"
+		},
+		"img1":"https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/blog/img2.jpg",
+		"img2":"https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/blog/img3.jpg",
+		"text":"Tollit fastidii expetendis cum id, eam ex dictas indoctum, verear audire theophrastus eum an. Te ridens ancillae corrumpit usu, stet tation omnesque no eam, eu sonet nominati explicari eam. Etiam noluisse pro ei, vim ornatus epicurei ad, nam quis tibique suscipiantur ei. Novum principes conceptam eum ei, eam an errem repudiandae. Ex sea case malorum, at cibo utamur sed, his meliore inermis invidunt no. Quo ipsum dolores accusamus id, populo tritani accusamus sit in.",
+		"text2":"Ad eos malorum apeirian iracundia, ut scripta saperet insolens ius. Est minim docendi concludaturque no. Eam at suas viris deseruisse, amet theophrastus ius eu, cu sint graecis per molestie salutandi quaerendum. Cum in choro vituperata cotidieque, mel ei assum reprimique. Cu molestie salutandi quaerendum mei.",
+		"text3":"An pri sonet adversarium, eum nibh adhuc eu, fastidii electram ut est. Sed ex veri mundi. Quando mucius quaeque mei id, no aliquando democritum intellegebat ius, ea eum homero patrioque mnesarchum. An vis natum partiendo, maiorum suavitate ea pro. Sit ei partem officiis euripidis, ut sit albucius delicatissimi. Fugit veniam dolore vis cu, te probatus reprimique per. Sed magna philosophia id. Ex inani nonumy feugait sea, quo duis facilis hendrerit an. Viderer commune probatus ex vix. Eu mei labitur numquam, ne eos summo eruditi disputando, te vim eius lorem.",
+		"text4":"Ex efficiendi dissentiet cum, duo primis commune id. Cu nec eruditi adipisci, dicant melius similique eam ad. Ad sit wisi minimum invenire, mel odio vituperata ad, consulatu assentior ne eam. Eos ne reque petentium delicatissimi, per affert labitur oportere cu, eam cu ancillae invidunt evertitur.",
+		"text5":"An pri sonet adversarium, eum nibh adhuc eu, fastidii electram ut est. Sed ex veri mundi. Quando mucius quaeque mei id, no aliquando democritum intellegebat ius, ea eum homero patrioque mnesarchum. An vis natum partiendo, maiorum suavitate ea pro. Sit ei partem officiis euripidis, ut sit albucius delicatissimi. Fugit veniam dolore vis cu, te probatus reprimique per. Sed magna philosophia id. Ex inani nonumy feugait sea, quo duis facilis hendrerit an. Viderer commune probatus ex vix. Eu mei labitur numquam, ne eos summo eruditi disputando, te vim eius lorem.",
+		"text6":"Ad eos malorum apeirian iracundia, ut scripta saperet insolens ius. Est minim docendi concludaturque no. Eam at suas viris deseruisse, amet theophrastus ius eu.",
+		"text7":"An pri sonet adversarium, eum nibh adhuc eu, fastidii electram ut est. Sed ex veri mundi. Quando mucius quaeque mei id, no aliquando democritum intellegebat ius, ea eum homero patrioque mnesarchum. An vis natum partiendo, maiorum suavitate ea pro. Sit ei partem officiis euripidis, ut sit albucius delicatissimi. Fugit veniam dolore vis cu, te probatus reprimique per. Sed magna philosophia id. Ex inani nonumy feugait sea, quo duis facilis hendrerit an. Viderer commune probatus ex vix. Eu mei labitur numquam, ne eos summo eruditi disputando, te vim eius lorem.",
+		"text8":"Ad eos malorum apeirian iracundia, ut scripta saperet insolens ius. Est minim docendi concludaturque no. Eam at suas viris deseruisse, amet theophrastus ius eu.",
+		"text9":"Tollit fastidii expetendis cum id, eam ex dictas indoctum, verear audire theophrastus eum an. Te ridens ancillae corrumpit usu, stet tation omnesque no eam, eu sonet nominati explicari eam. Etiam noluisse pro ei, vim ornatus epicurei ad, nam quis tibique suscipiantur ei. Novum principes conceptam eum ei, eam an errem repudiandae. Ex sea case malorum, at cibo utamur sed, his meliore inermis invidunt no. Quo ipsum dolores accusamus id, populo tritani accusamus sit in."
+	},
+	"comments":{
+		"users":{
+			"1":{
+				"img":"https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/avatar/1.png?spycache",
+				"name":"John Doe"
+			},
+			"2":{
+				"img":"https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/avatar/2.png?spycache",
+				"name":"Neng korong"
+			},
+			"3":{
+				"img":"https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/avatar/4.png?spycache",
+				"name":"Mat gantol"
+			},
+			"4":{
+				"img":"https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/avatar/3.png?spycache",
+				"name":"Euis dobleh"
+			}
+		},
+		"listCommens":{
+			"1":"An pri sonet adversarium, eum nibh adhuc eu, fastidii electram ut est. Sed ex veri mundi. Quando mucius quaeque mei id, no aliquando democritum intellegebat ius, ea eum homero patrioque mnesarchum. An vis natum partiendo, maiorum suavitate ea pro. Sit ei partem officiis euripidis, ut sit albucius delicatissimi.","author1":"1",
+			"2":"An pri sonet adversarium, eum nibh adhuc eu, fastidii electram ut est. Sed ex veri mundi. Quando mucius quaeque mei id, no aliquando democritum intellegebat ius, ea eum homero patrioque mnesarchum. An vis natum partiendo, maiorum suavitate ea pro. Sit ei partem officiis euripidis, ut sit albucius delicatissimi.","author2":"2",
+			"3":"Erant probatus mea ne. Pri error impetus instructior cu, congue tantas eum an. Magna aeque intellegebat ei qui, nec te perfecto adipiscing. Per natum option et, cum ut semper volutpat.","author3":"3",
+			"4":"<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p><p>Mazim ornatus dolorum cu ius, eu reque albucius gloriatur duo, id qui reque ullum. Soluta delicata cum ad, ius et honestatis omittantur. Erant probatus mea ne. Pri error impetus instructior cu, congue tantas eum an. Magna aeque intellegebat ei qui, nec te perfecto adipiscing. Per natum option et, cum ut semper volutpat.</p>","author4":"1",
+			"5":"Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.","author5":"2",
+			"6":"An pri sonet adversarium, eum nibh adhuc eu, fastidii electram ut est. Sed ex veri mundi. Quando mucius quaeque mei id, no aliquando democritum intellegebat ius, ea eum homero patrioque mnesarchum. An vis natum partiendo, maiorum suavitate ea pro. Sit ei partem officiis euripidis, ut sit albucius delicatissimi.","author6":"3",
+			"7":"Fugit veniam dolore vis cu, te probatus reprimique per. Sed magna philosophia id. Ex inani nonumy feugait sea, quo duis facilis hendrerit an. Viderer commune probatus ex vix. Eu mei labitur numquam, ne eos summo eruditi disputando, te vim eius lorem.","author7":"4"
+		},
+		"buttonComent":"Add comment",
+		"author":"Author",
+		"reply":"Reply",
+		"title":"Leave a Comments"
+	},
+	"widgets":{
+		"ads":{
+			"title":"Ads",
+			"img1":"https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/ads/banner01.png",
+			"img2":"https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/ads/banner02.png",
+			"img3":"https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/ads/banner03.png",
+			"img4":"https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/ads/banner04.png"
+		},
+		"categoria":{
+			"title":"Categories",
+			"opt1":"Web design",
+			"opt2":"Art design",
+			"opt3":"print design",
+			"opt4":"UI Elements",
+			"opt5":"Wallpapers",
+			"opt6":"Photography"
+		},
+		"recent":{
+			"title":"Recent",
+			"img1":"https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/blog/thumbs/thumb1.jpg",
+			"opt1":"Etiam noluisse pro ei vim ornatus epicurei",
+			"img2":"https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/blog/thumbs/thumb2.jpg",
+			"opt2":"Bris bibendum nulla sed consectetur justo.",
+			"img3":"https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/blog/thumbs/thumb3.jpg",
+			"opt3":"Egestas eget quam euismod. Vestibulum id ligula porta."
+		},
+		"popular":{
+			"title":"Popular",
+			"img1":"https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/blog/thumbs/thumb3.jpg",
+			"opt1":"Egestas eget quam euismod. Vestibulum id ligula porta.",
+			"img2":"https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/blog/thumbs/thumb1.jpg",
+			"opt2":"Etiam noluisse pro ei vim ornatus epicurei",
+			"img3":"https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/blog/thumbs/thumb2.jpg",
+			"opt3":"Bris bibendum nulla sed consectetur justo."
+		},
+		"tags":{
+			"title":"Tags",
+			"opt1":"Graphic",
+			"opt2":"Web",
+			"opt3":"Cover",
+			"opt4":"Design",
+			"opt5":"Typography"
+		}
+	},
+	"bottom":{
+		"title":"Please subscribe to get news update",
+		"text":"Mazim ornatus dolorum cu ius, eu reque albucius gloriatur duo, id qui reque ullum. Soluta delicata cum ad, ius et honestatis omittantur. Erant probatus mea ne. Pri error impetus instructior cu, congue tantas eum an. Magna aeque intellegebat ei qui, nec te perfecto adipiscing. Per natum option et, cum ut semper volutpat.",
+		"placeholder":"Enter your email address",
+		"button":"GET NOTIFIED"
+	},
+		"footer":{
+		"text":"Vim in idque patrioque, eum et omnes maiorum torquatos. Sale everti sapientem nam ad, vix id congue admodum sensibus, et veri fugit aeque nec. Legere recusabo est ut. Posse ullum eirmod sed in, et oratio voluptua instructior sit. Ei percipit iracundia vel. Corpora pertinax aliquando et sit, adipiscing neglegentur cu mei.",
+		"copyrigth":"2013 &copy; Copyright <a href='www.99webpage.com'>nce18cex</a>. All rights Reserved.",
+		"nav":{
+			"opt1":"Home",
+			"opt2":"About",
+			"opt3":"Services",
+			"opt4":"Blog",
+			"opt5":"Help",
+			"opt6":"Site map",
+			"opt7":"Contact"
+		}
+	}
+}

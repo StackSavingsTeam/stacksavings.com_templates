@@ -1,0 +1,206 @@
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>${title}</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- styles -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.1.0/css/font-awesome.css" integrity="sha256-yGy2tCHWtm1cHenQuDkM2l7PHTQdEVa2GUUR4U6V8a8=" crossorigin="anonymous" />
+      <link href="https://layouts.stacksavings.com/themeForestResponsive18Augst/html/css/bootstrap.css" rel="stylesheet">
+      <link href="https://layouts.stacksavings.com/themeForestResponsive18Augst/html/css/bootstrap-responsive.css" rel="stylesheet">
+      <link href="https://layouts.stacksavings.com/themeForestResponsive18Augst/html/css/overwrite.css" rel="stylesheet">
+      <link href="https://layouts.stacksavings.com/themeForestResponsive18Augst/html/css/flexslider.css" rel="stylesheet">
+      <link href="https://layouts.stacksavings.com/themeForestResponsive18Augst/html/css/style.css" rel="stylesheet">
+      <!-- Font -->
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700,300' rel='stylesheet' type='text/css'>
+      <!-- skin color -->
+      <link href="https://layouts.stacksavings.com/themeForestResponsive18Augst/html/skin/default.css" rel="stylesheet">
+      <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+      <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+      <!-- Fav and touch icons -->
+      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://layouts.stacksavings.com/themeForestResponsive18Augst/html/ico/apple-touch-icon-144-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://layouts.stacksavings.com/themeForestResponsive18Augst/html/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://layouts.stacksavings.com/themeForestResponsive18Augst/html/ico/apple-touch-icon-72-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" href="https://layouts.stacksavings.com/themeForestResponsive18Augst/html/ico/apple-touch-icon-57-precomposed.png">
+      <link rel="shortcut icon" href="https://layouts.stacksavings.com/themeForestResponsive18Augst/html/ico/favicon.png">
+   </head>
+   <body>
+      <header>
+         <div class="navbar navbar-inverse navbar-static-top">
+            <div class="navbar-inner">
+               <div class="container">
+                  <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </a>              
+                  <ul class="social-top">
+                     <li><a href="#"><i class="${menus.social.opt1}"></i></a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <section id="header-contain">
+            <div class="container">
+               <div class="row">
+                  <div class="span12">
+                     StackSavings
+                  </div>
+               </div>
+            </div>
+         </section>
+      </header>
+      <!-- Start modal -->
+      <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+         <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+            <h4 id="myModalLabel">${header.login.modal.title}</h4>
+         </div>
+      </div>
+      <!-- End modal -->      
+      <!-- Start page header -->
+      <section id="page-header">
+         <div class="container">
+            <div class="row">
+               <div class="span12 aligncenter">
+                  <h3>${titlePost.title}</h3>
+                  <p>
+                     ${titlePost.text}
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- End page header  -->
+      <!-- Start contain -->
+      <section id="contain">
+         <div class="container">
+            <div class="row">
+               <div class="span12">
+                  <div class="boxed-wrapper">
+                     <div class="article-wrapper">
+                        <article>
+                           <div class="post-headline">
+                              <h4><a href="#">${article.title}</a></h4>
+                           </div>
+                           <div class="median-object">
+                              <img src="${article.img}" alt="" />
+                           </div>
+                           <div class="post-contain">
+                              <p>
+                                 ${article.text}
+                              </p>
+                              <p>
+                                 ${article.text2}
+                              </p>
+                              <p>
+                                 ${article.text3}
+                              </p>
+                              <blockquote>
+                                 <p>
+                                    ${article.text4}
+                                 </p>
+                              </blockquote>
+                              <img src="${article.img1}" class="alignleft" alt="" />
+                              <p>
+                                 ${article.text5}
+                              </p>
+                              <p>
+                                 ${article.text6}
+                              </p>
+                              <img src="${article.img2}" class="alignright" alt="" />  
+                              <p>
+                                 ${article.text7}
+                              </p>
+                              <p>
+                                 ${article.text8}
+                              </p>
+                              <p>
+                                 ${article.text9}
+                              </p>
+                           </div>
+                        </article>
+                        <div class="clearfix"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- End contain -->
+      <!-- Start bottom -->
+      <section id="bottom">
+         <div class="container">
+            <div class="row">
+               <div class="span8 offset2 aligncenter">
+                  <h4>${bottom.title}</h4>
+                  <p>
+                     ${bottom.text}
+                  </p>
+                  <form class="subscribeform-inline">
+                     <input class="subscribe" id="appendedPrependedInput" type="text" placeholder="${bottom.placeholder}" />
+                     <button class="btn btn-large btn-primary" type="submit">${bottom.button}</button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- End bottom -->
+      <!-- Start footer -->
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="span12">
+                  <div class="footer-social">
+                     <a href="#"><i class="icon-facebook"></i></a>
+                  </div>
+                  <p>
+                     ${footer.text}
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div id="subfooter">
+            <div class="container">
+               <div class="row">
+                  <div class="span12">
+                     <p>${footer.copyrigth}</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- End footer -->
+      <script type="text/javascript">
+         //<![CDATA[
+            var browser       = navigator.userAgent;
+            var browserRegex  = /(Android|BlackBerry|IEMobile|Nokia|iP(ad|hone|od)|Opera M(obi|ini))/;
+            var isMobile      = false;
+            if(browser.match(browserRegex)) {
+               isMobile       = true;
+               addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+               function hideURLbar(){
+                  window.scrollTo(0,1);
+               }
+            }
+         //]]>
+      </script>      
+      <!-- Javascript
+         ================================================== -->
+      <script src="https://layouts.stacksavings.com/themeForestResponsive18Augst/html/js/jquery.js"></script>
+      <script src="https://layouts.stacksavings.com/themeForestResponsive18Augst/html/js/html5shiv.js"></script>  
+      <script src="https://layouts.stacksavings.com/themeForestResponsive18Augst/html/js/jquery.easing.1.3.js"></script>   
+      <script src="https://layouts.stacksavings.com/themeForestResponsive18Augst/html/js/bootstrap.js"></script>  
+      <!-- flexslider -->
+      <script src="https://layouts.stacksavings.com/themeForestResponsive18Augst/html/js/flexslider/jquery.flexslider.js"></script>
+      <script src="https://layouts.stacksavings.com/themeForestResponsive18Augst/html/js/flexslider/setting.js"></script>     
+      <!-- to top -->
+      <script src="https://layouts.stacksavings.com/themeForestResponsive18Augst/html/js/totop/jquery.ui.totop.js"></script>
+      <script src="https://layouts.stacksavings.com/themeForestResponsive18Augst/html/js/totop/setting.js"></script> 
+      <!-- custom js -->
+      <script src="https://layouts.stacksavings.com/themeForestResponsive18Augst/html/js/custom.js"></script>
+   </body>
+</html>
