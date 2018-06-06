@@ -1,0 +1,35 @@
+<manifest alg="2" build="2015.1.2.344" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="3D-Panorama-Pack-Instruction.com" resolutions="1x" timestamp="1460002701617">
+  <folder name="css">
+    <file name="site_global.css" crc="131700929"/>
+    <file name="index.css" crc="4220825123" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <file name="examples.zip" crc="4018846774" seo="true" mt="1460002465000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="207176553" ref="index"/>
+    <file name="museutils.js" crc="3790713428" ref="index"/>
+    <file name="whatinput.js" crc="84559013" ref="index"/>
+    <file name="jquery.musemenu.js" crc="238543590" ref="index"/>
+    <file name="jquery.watch.js" crc="4244854265" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="s_7.jpg" crc="446840817" seo="true" ref="index"/>
+    <file name="s_6.jpg" crc="48178998" seo="true" ref="index"/>
+    <file name="s_2.jpg" crc="4046821449" seo="true" ref="index"/>
+    <file name="s_4.jpg" crc="529345796" seo="true" ref="index"/>
+    <file name="en_1.jpg" crc="359899449" ref="index"/>
+    <file name="en_2.jpg" crc="152554739" ref="index"/>
+    <file name="1.jpg" crc="33762937" seo="true" ref="index"/>
+    <file name="s_8.jpg" crc="3769173914" seo="true" ref="index"/>
+    <file name="s_5.jpg" crc="4038932699" seo="true" ref="index"/>
+    <file name="2.jpg" crc="502639886" seo="true" ref="index"/>
+    <file name="s_9.jpg" crc="455408986" seo="true" ref="index"/>
+    <file name="s_1.jpg" crc="4225222435" seo="true" ref="index"/>
+    <file name="3.jpg" crc="162521294" seo="true" ref="index"/>
+    <file name="s_3.jpg" crc="4222105370" seo="true" ref="index"/>
+    <file name="s_10.jpg" crc="213544283" seo="true" ref="index"/>
+  </folder>
+  <file name="index.html" crc="3921004745" seo="true" mt="1460002600871" redirect="true"/>
+</manifest>

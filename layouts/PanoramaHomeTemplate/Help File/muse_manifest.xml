@@ -1,0 +1,36 @@
+<manifest alg="2" build="2017.0.1.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="helpfile.com" resolutions="1x" timestamp="1485033158079">
+  <folder name="css">
+    <file name="site_global.css" crc="233103065"/>
+    <file name="index.css" crc="78748347" ref="index"/>
+  </folder>
+  <folder name="fonts">
+    <file name="raleway-medium.woff" crc="4224161584"/>
+    <file name="raleway-medium.eot" crc="466437789"/>
+    <file name="raleway-medium.svg" crc="197412369"/>
+    <file name="raleway-bold.woff" crc="227634919"/>
+    <file name="raleway-bold.eot" crc="3958013539"/>
+    <file name="raleway-bold.svg" crc="4099940693"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="4148063285" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="4179431180" ref="index"/>
+    <file name="jquery.musemenu.js" crc="3765830709" ref="index"/>
+    <file name="jquery.watch.js" crc="437028206" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="3801019579" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index"/>
+    <file name="require.js" crc="4159430777" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="winrar.png" crc="226441990" seo="true" ref="index"/>
+    <file name="html.png" crc="153191711" seo="true" ref="index"/>
+    <file name="muse.png" crc="388282021" seo="true" ref="index"/>
+    <file name="dd.png" crc="3831331237" seo="true" ref="index"/>
+    <file name="folder.png" crc="4016042939" seo="true" ref="index"/>
+    <file name="pasted image 264x429.jpg" crc="4025134060" seo="true" ref="index"/>
+    <file name="pasted image 538x381.jpg" crc="72683589" seo="true" ref="index"/>
+    <file name="pasted image 533x292.jpg" crc="507152802" seo="true" ref="index"/>
+  </folder>
+  <file name="index.html" crc="3843060914" seo="true" mt="1485033125311" redirect="true"/>
+</manifest>
