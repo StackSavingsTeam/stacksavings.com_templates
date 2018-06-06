@@ -1,0 +1,31 @@
+.v-youtube{
+  height:315px;
+  width:420px;
+}
+
+.v-youtube iframe{
+  border:none;
+  height:100%;
+  width:100%;
+}
+
+@media (max-width: 978px){
+    .v-youtube{
+      height:315px;
+      width:100%;
+    }
+}
+
+@media (max-width: 780px){
+    .v-youtube{
+      height:220px;
+      width:50%;
+    }
+}
+
+@media (max-width: 560px){
+    .v-youtube{
+      height:260px;
+      width:100%;
+    }
+}
