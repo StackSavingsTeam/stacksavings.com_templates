@@ -4,7 +4,7 @@ $(document).ready(() => {
     "autoLoad" : true,
     "autoRotate": -2,
     "type": "equirectangular",
-    "panorama": "assets/360-bootstrap/kitchen.jpg",
+    "panorama": "assets/360-bootstrap/alma.jpg",
     "showControls": false
   });
 
