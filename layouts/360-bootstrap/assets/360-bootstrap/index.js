@@ -1,5 +1,5 @@
 $(document).ready(() => {
-alert()
+
   pannellum.viewer('panorama', {
     "autoLoad" : true,
     "autoRotate": -2,
