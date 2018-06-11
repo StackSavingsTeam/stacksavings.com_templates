@@ -3,41 +3,7 @@
 jQuery(document).ready(function ($) {
     "use strict";
     $(function () {
-        //Keep track of last scroll
-        var lastScroll = 0;
-        var header = $("#header");
-        var headerfixed = $("#header-main-fixed");
-        var headerfixedbg = $(".header-bg");
-        var headerfixedtopbg = $(".top-header-bg");
-        $(window).scroll(function () {
-            //Sets the current scroll position
-            var st = $(this).scrollTop();
-            //Determines up-or-down scrolling
-            if (st > lastScroll) {
 
-                //Replace this with your function call for downward-scrolling
-                if (st > 50) {
-                    header.addClass("header-top-fixed");
-                    header.find(".header-top-row").addClass("dis-n");
-                    headerfixedbg.addClass("header-bg-fixed");
-                    headerfixed.addClass("header-main-fixed");
-                    headerfixedtopbg.addClass("top-header-bg-fix");
-                }
-            }
-            else {
-                //Replace this with your function call for upward-scrolling
-                if (st < 50) {
-                    header.removeClass("header-top-fixed");
-                    header.find(".header-top-row").removeClass("dis-n");
-                    headerfixed.removeClass("header-main-fixed");
-                    headerfixedbg.removeClass("header-bg-fixed");
-                    headerfixedtopbg.removeClass("top-header-bg-fix");
-                    //headerfixed.addClass("header-main-fixed")
-                }
-            }
-            //Updates scroll position
-            lastScroll = st;
-        });
     });
     // Header search open functions
     $("#header-search").click(function () {
