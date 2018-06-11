@@ -4,7 +4,7 @@ $(document).ready(function($) {
     "autoLoad" : true,
     "autoRotate": -2,
     "type": "equirectangular",
-    "panorama": "img/badroom.jpg",
+    "panorama": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/badroom.jpg",
     "showControls": false
   });
 
