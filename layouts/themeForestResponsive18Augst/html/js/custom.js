@@ -5,9 +5,8 @@ $(document).ready(function() {
 	pannellum.viewer('panorama', {
     "autoLoad" : true,
     "autoRotate": -2,
-		"basePath": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/",
     "type": "equirectangular",
-    "panorama": "badroom.jpg",
+    "panorama": "http://cine-digital.com/camaras-360/",
     "showControls": false
   });
 
