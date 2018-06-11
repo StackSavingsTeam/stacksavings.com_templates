@@ -5,8 +5,9 @@ $(document).ready(function() {
 	pannellum.viewer('panorama', {
     "autoLoad" : true,
     "autoRotate": -2,
+		"basePath": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/",
     "type": "equirectangular",
-    "panorama": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/badroom.jpg",
+    "panorama": "badroom.jpg",
     "showControls": false
   });
 
