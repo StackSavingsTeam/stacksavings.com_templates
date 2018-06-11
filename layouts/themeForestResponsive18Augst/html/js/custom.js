@@ -2,13 +2,6 @@
 
 $(document).ready(function() {
 
-	pannellum.viewer('panorama', {
-    "autoLoad" : true,
-    "autoRotate": -2,
-    "type": "equirectangular",
-    "panorama": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/badroom.jpg",
-    "showControls": false
-  });
 
 
 	/*
