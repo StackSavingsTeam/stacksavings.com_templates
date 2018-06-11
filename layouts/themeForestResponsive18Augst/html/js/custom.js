@@ -1,4 +1,6 @@
-jQuery(document).ready(function() {
+( function($) {
+
+$(document).ready(function() {
 
 	pannellum.viewer('panorama', {
     "autoLoad" : true,
@@ -62,6 +64,8 @@ jQuery(document).ready(function() {
 		$(".team-img", this).stop().animate({top:'-100%'},{queue:false,duration:550});
 	}, function() {
 		$(".team-img", this).stop().animate({top:'0'},{queue:false,duration:550});
+	});
+
 	});
 
 })(jQuery);
