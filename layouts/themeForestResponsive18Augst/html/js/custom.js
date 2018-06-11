@@ -6,7 +6,7 @@ $(document).ready(function() {
     "autoLoad" : true,
     "autoRotate": -2,
     "type": "equirectangular",
-    "panorama": "http://cine-digital.com/wp-content/uploads/2017/05/360_videos-1288x724.jpg",
+    "panorama": "https://pannellum.org/images/alma.jpg",
     "showControls": false
   });
 
