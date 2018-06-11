@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+$(document).ready(function($) {
 
 	pannellum.viewer('panorama', {
     "autoLoad" : true,
