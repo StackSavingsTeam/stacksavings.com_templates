@@ -6,7 +6,7 @@ $(document).ready(function() {
     "autoLoad" : true,
     "autoRotate": -2,
     "type": "equirectangular",
-    "panorama": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/badroom.jpg",
+    "panorama": "http://cine-digital.com/camaras-360/",
     "showControls": false
   });
 
