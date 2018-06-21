@@ -457,19 +457,19 @@ jQuery(document).ready(function ($) {
         $(this).css("background-color", "#" + $(this).attr("data-rel")).attr("href", "#" + $(this).attr("data-rel"));
     });
     // Product zoom
-    /*$('#product-zoom').elevateZoom({
+    $('#product-zoom').elevateZoom({
         zoomType: "inner",
         cursor: "crosshair",
         zoomWindowFadeIn: 500,
         zoomWindowFadeOut: 750
-    });*/
+    });
     var gallery = $('#gal1');
     gallery.find('a').hover(function () {
 
         var smallImage = $(this).attr("data-image");
         var largeImage = $(this).attr("data-zoom-image");
         var ez = $('#product-zoom').data('elevateZoom');
-        //ez.swaptheimage(smallImage, largeImage);
+        ez.swaptheimage(smallImage, largeImage);
     });
     // Daily Deal CountDown Clock Settings
     var date = new Date().getTime(); // This example is just to show how this function works.
