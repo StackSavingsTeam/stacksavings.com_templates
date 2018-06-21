@@ -469,7 +469,7 @@ jQuery(document).ready(function ($) {
         var smallImage = $(this).attr("data-image");
         var largeImage = $(this).attr("data-zoom-image");
         var ez = $('#product-zoom').data('elevateZoom');
-        ez.swaptheimage(smallImage, largeImage);
+        //ez.swaptheimage(smallImage, largeImage);
     });
     // Daily Deal CountDown Clock Settings
     var date = new Date().getTime(); // This example is just to show how this function works.
