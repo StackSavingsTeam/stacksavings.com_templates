@@ -457,12 +457,12 @@ jQuery(document).ready(function ($) {
         $(this).css("background-color", "#" + $(this).attr("data-rel")).attr("href", "#" + $(this).attr("data-rel"));
     });
     // Product zoom
-    $('#product-zoom').elevateZoom({
+    /*$('#product-zoom').elevateZoom({
         zoomType: "inner",
         cursor: "crosshair",
         zoomWindowFadeIn: 500,
         zoomWindowFadeOut: 750
-    });
+    });*/
     var gallery = $('#gal1');
     gallery.find('a').hover(function () {
 
@@ -546,4 +546,3 @@ jQuery(document).ready(function ($) {
     };
 })(jQuery);
 new WOW().init();
-
