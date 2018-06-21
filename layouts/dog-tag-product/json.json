@@ -1,0 +1,287 @@
+{
+    "title":"Leman, premium HTML5&AMP;CSS3 template",
+    "header":{
+         "logo":"https://layouts.herokuapp.com/productTemplate/img/logo-big-shop.png",
+         "title":"Product Detail"
+    },
+    "product":{
+        "gallery":{
+            "small":{
+                "img1": "http://placehold.it/65x85",
+                "img2": "http://placehold.it/65x85",
+                "img3": "http://placehold.it/65x85"
+            },
+            "large":{
+                "img1": "http://placehold.it/750x938",
+                "img2": "http://placehold.it/750x938",
+                "img3": "http://placehold.it/750x938"
+            },
+            "zoom":{
+                "img1": "http://placehold.it/1000x1333",
+                "img2": "http://placehold.it/1000x1333",
+                "img3": "http://placehold.it/1000x1333"
+            }
+        },
+        "overview":{
+            "title":"Long red Dress",
+            "review":"10 Reviews",
+            "brand":"MusaicDesign",
+            "collection":"Leman",
+            "code":"ID 17232451",
+            "size":{
+                "item1": "L",
+                "item2": "XL",
+                "item3": "XLL"
+            },
+            "availability":"150 in stock",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt",
+            "price":{
+                "before": "$469.99",
+                "after":"$450.99"
+            },
+            "total":"$850",
+            "btn":"Add to cart"
+        },
+        "detail":{
+            "nav":{
+                "item1": "Description",
+                "item2": "Additional",
+                "item3": "Review"
+            },
+            "description":{
+                "title":"Product Details",
+                "content":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst."
+            },
+            "additional":{
+                "sizes":{
+                    "title":"Sizes",
+                    "content":"Lorem ipsum dolor sit amet, consectetur adipisicing elit ollit anim id est laborum."
+                },
+                "colors":{
+                    "title":"Colors",
+                    "content":""
+                },
+                "other":{
+                    "title":"Other",
+                    "content":"Lorem ipsum dolor sit amet, consectetur adipisicing elit ollit anim id est laborum."
+                }
+            },
+            "review":{
+                "title":"Clients review",
+                "clients":{
+                    "client1":{
+                        "name":"John Smith",
+                        "date":"26/06/2014",
+                        "opinion":"Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+                    },
+                    "client2":{
+                        "name":"Tom Carry",
+                        "date":"05/07/2014",
+                        "opinion":"Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+                    }
+                },
+                "form":{
+                    "name":"First Name:",
+                    "company":"Company:",
+                    "rate":"Your Rate:",
+                    "btn":"Add Review"
+                }
+
+            }
+        }
+    } ,
+    "footer":{
+        "column1":{
+            "block1":{
+                "title":"About us",
+                "paragraph":"We are MosaicDesign group and we make modern, creative tempor incididunt ut labore. Duis aute velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "block2":{
+                "title":"Tags",
+                "links":{
+                    "link1":{
+                        "text":"android",
+                        "url":""
+                    },
+                    "link2":{
+                        "text":"ios",
+                        "url":""
+                    },
+                    "link3":{
+                        "text":"dark",
+                        "url":""
+                    },
+                    "link4":{
+                        "text":"white",
+                        "url":""
+                    },
+                    "link5":{
+                        "text":"iphone",
+                        "url":""
+                    },
+                    "link6":{
+                        "text":"tablet",
+                        "url":""
+                    },
+                    "link7":{
+                        "text":"mobile",
+                        "url":""
+                    },
+                    "link8":{
+                        "text":"smartphone",
+                        "url":""
+                    },
+                    "link9":{
+                        "text":"top",
+                        "url":""
+                    },
+                    "link10":{
+                        "text":"bestseller",
+                        "url":""
+                    },
+                    "link11":{
+                        "text":"new",
+                        "url":""
+                    }
+                }
+            }
+        },
+        "column2":{
+            "block1":{
+                "title":"Information",
+                "links":{
+                    "link1":{
+                        "text":"About Us",
+                        "url":""
+                    },
+                    "link2":{
+                        "text":"Contact Us",
+                        "url":""
+                    },
+                    "link3":{
+                        "text":"Delivery Information",
+                        "url":""
+                    },
+                    "link4":{
+                        "text":"Privacy Policy",
+                        "url":""
+                    },
+                    "link5":{
+                        "text":"Terms & Conditions",
+                        "url":""
+                    },
+                    "link6":{
+                        "text":"Site Map",
+                        "url":""
+                    },
+                    "link7":{
+                        "text":"Returns",
+                        "url":""
+                    }
+                }
+            },
+            "block2":{
+                "title":"My Account",
+                "links":{
+                    "link1":{
+                        "text":"My Account",
+                        "url":""
+                    },
+                    "link2":{
+                        "text":"Wish List",
+                        "url":""
+                    },
+                    "link3":{
+                        "text":"Order History",
+                        "url":""
+                    },
+                    "link4":{
+                        "text":"Brands",
+                        "url":""
+                    },
+                    "link5":{
+                        "text":"Specials",
+                        "url":""
+                    },
+                    "link6":{
+                        "text":"Newsletter",
+                        "url":""
+                    },
+                    "link7":{
+                        "text":"Secure payment",
+                        "url":""
+                    }
+                }
+            }
+        },
+        "column3":{
+            "title":"Bestseller",
+            "listing":{
+                "item1":{
+                    "image":"http://placehold.it/800x1000",
+                    "title":"HTC 3",
+                    "price":"$120.99",
+                    "rate":"Top 1 2014"
+                },
+                "item2":{
+                    "image":"http://placehold.it/800x1000",
+                    "title":"Samsung Galaxy S4",
+                    "price":"$320.99",
+                    "rate":"Populiar 2014"
+                },
+                "item3":{
+                    "image":"http://placehold.it/800x1000",
+                    "title":"Samsung Galaxy S3",
+                    "price":"$320.99",
+                    "rate":"Top search"
+                },
+                "item4":{
+                    "image":"http://placehold.it/800x1000",
+                    "title":"Samsung Galaxy S2",
+                    "price":"$320.99",
+                    "rate":"Recomended"
+                }
+            }
+        },
+        "column4":{
+            "block1":{
+                "title":"Address",
+                "address":"&nbsp; 2901 Marmora Road, Glassgow, Seattle, WA 98122-1090",
+                "phone1":"&nbsp; 9 - 876 - 543 - 210",
+                "phone2":"&nbsp; 1 - 234 - 567 - 890",
+                "links":{
+                    "link1":{
+                        "text":"&nbsp; info@yourdomain.com",
+                        "url":"mailto:info@yourdomain.com"
+                    },
+                    "link2":{
+                        "text":"&nbsp; support@yourdomain.com",
+                        "url":"mailto:support@yourdomain.com"
+                    },
+                    "link3":{
+                        "text":"&nbsp;&nbsp; Location in Google Maps",
+                        "url":"#"
+                    }
+                }
+            },
+            "form":{
+                "name":"Name",
+                "email":"E-mail",
+                "comment":"I want ...",
+                "btn":"Send us"
+            }
+
+        }
+    },
+    "copyright":{
+        "text":"Copyright © 2014  Leman | MosaicGroup.",
+        "cards":{
+            "img1": "https://layouts.herokuapp.com/productTemplate/img/payment-maestro.jpg",
+            "img2": "https://layouts.herokuapp.com/productTemplate/img/payment-discover.jpg",
+            "img3": "https://layouts.herokuapp.com/productTemplate/img/payment-visa.jpg",
+            "img4": "https://layouts.herokuapp.com/productTemplate/img/payment-american-express.jpg",
+            "img5": "https://layouts.herokuapp.com/productTemplate/img/payment-paypal.jpg"
+        }
+    }
+
+ }

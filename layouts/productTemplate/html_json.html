@@ -1,0 +1,575 @@
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js">
+    <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">``
+        <![endif]-->
+        <title>${title} </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="https://layouts.herokuapp.com/productTemplate/css/theme-style.css">
+        <link rel="stylesheet" href="https://layouts.herokuapp.com/productTemplate/css/ie.style.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <![endif]-->
+        <!--[if IE 7]>
+          <link rel="stylesheet" href="https://layouts.herokuapp.com/productTemplate/css/font-awesome-ie7.css">
+        <![endif]-->
+        <script src="https://layouts.herokuapp.com/productTemplate/js/vendor/modernizr.js"></script>
+        <!--[if IE 8]><script src="https://layouts.herokuapp.com/productTemplate/js/vendor/less-1.3.3.js"></script><![endif]-->
+        <!--[if gt IE 8]><!--><script src="https://layouts.herokuapp.com/productTemplate/js/vendor/less.js"></script><!--<![endif]-->
+    </head>
+    <body>
+        <header id="header" class="light">
+            <div class="container">
+              <img src="${header.logo}" alt="">
+            </div>
+        </header>
+        <div class="top-header-bg"></div>
+        <section>
+            <div class="second-page-header dark">
+                <div class="container">
+                    <h2>${header.title}</h2>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="block2">
+                <div class="container">
+                    <div class="block-product-detail">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                <div class="product-image">
+                                    <img id="product-zoom"  src='${product.gallery.large.img1}'
+                                    data-zoom-image="${product.gallery.zoom.img1}" alt="">
+                                    <div id="gal1">
+                                        <a href="javascript:;" data-image="${product.gallery.large.img1}"
+                                        data-zoom-image="${product.gallery.zoom.img1}">
+                                            <img src="${product.gallery.small.img1}" alt="">
+                                        </a>
+                                        <a href="javascript:;" data-image="${product.gallery.large.img2}"
+                                        data-zoom-image="${product.gallery.zoom.img2}">
+                                            <img src="${product.gallery.small.img2}"  alt="">
+                                        </a>
+                                        <a href="javascript:;"  data-image="${product.gallery.large.img3}"
+                                        data-zoom-image="${product.gallery.zoom.img3}">
+                                            <img src="${product.gallery.small.img3}"  alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                <div class="product-detail-section">
+                                    <h3>${product.overview.title}</h3>
+                                    <div class="product-rating">
+                                        <div class="stars">
+                                            <span class="star"></span><span class="star active"></span><span class="star active"></span><span class="star active"></span><span class="star active"></span>
+                                        </div>
+                                        <a href="" class="review">${product.overview.review}</a>
+                                    </div>
+                                    <div class="product-information">
+                                        <div class="clearfix">
+                                            <label class="pull-left">Brand:</label> ${product.overview.brand}<br>
+                                        </div>
+                                        <div class="clearfix">
+                                            <label class="pull-left">Collection:</label> ${product.overview.collection}
+                                        </div>
+                                        <div class="clearfix">
+                                            <label class="pull-left">Product Code:</label> ${product.overview.code}
+                                        </div>
+                                        <div class="clearfix">
+                                            <label class="pull-left">Size:</label>
+                                            <select name="size" class="form-control">
+                                                <option value="" selected="selected">...</option>
+                                                <option value="1">${product.overview.size.item1}</option>
+                                                <option value="2">${product.overview.size.item2}</option>
+                                                <option value="3">${product.overview.size.item3}</option>
+                                            </select>
+                                        </div>
+                                        <div class="clearfix">
+                                            <label class="pull-left">Availability:</label>
+                                            <p>${product.overview.availability}</p>
+                                        </div>
+                                        <div class="clearfix">
+                                            <label class="pull-left">Description:</label>
+                                            <p class="description">${product.overview.description}</p>
+                                        </div>
+                                        <div class="clearfix">
+                                            <label class="pull-left">Price:</label>
+                                            <p class="product-price">
+                                                <span>${product.overview.price.before}</span>
+                                                ${product.overview.price.after}
+                                            </p>
+                                        </div>
+                                        <div class="clearfix">
+                                            <label class="pull-left">Quantity:</label>
+                                            <input type="number" class="form-control">
+                                        </div>
+                                        <div class="clearfix">
+                                            <label class="pull-left">Total:</label>
+                                            <p class="product-price">${product.overview.total}</p>
+                                        </div>
+                                        <div class="shopping-cart-buttons">
+
+                                            <a href="#" class="shoping"><i class="fa fa-shopping-cart"></i>${product.overview.btn}</a>
+                                            <a href="#" title="Wishlist"><i class="fa fa-heart-o"></i></a>
+                                            <a href="#" title="Compare"><i class="fa fa-random"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-border block-form">
+                                <ul class="nav nav-pills  nav-justified">
+                                    <li class="active"><a href="#description" data-toggle="tab">${product.detail.nav.item1}</a></li>
+                                    <li><a href="#additional" data-toggle="tab" class="disabled">${product.detail.nav.item2}</a></li>
+                                    <li><a href="#review" data-toggle="tab">${product.detail.nav.item3}</a></li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="description">
+                                        <br>
+                                        <h3>${product.detail.description.title}</h3>
+                                        <hr>
+                                        <p>
+                                            ${product.detail.description.content}
+                                        </p>
+                                    </div>
+                                    <div class="tab-pane" id="additional">
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <h3>${product.detail.additional.sizes.title}</h3>
+                                                <hr>
+                                                <p>
+                                                    ${product.detail.additional.sizes.content}
+                                                </p>
+                                            </div>
+                                            <div class="col-md-4 block-color">
+                                                <h3>${product.detail.additional.colors.title}</h3>
+                                                <hr>
+                                                <ul class="colors clearfix list-unstyled">
+                                                    <li><a href="" data-rel="003d71"></a></li>
+                                                    <li><a href="" data-rel="c42c39"></a></li>
+                                                    <li><a href="" data-rel="f4bc08"></a></li>
+                                                    <li><a href="" data-rel="02882c"></a></li>
+                                                    <li><a href="" data-rel="000000"></a></li>
+                                                    <li><a href="" data-rel="caccce"></a></li>
+                                                    <li><a href="" data-rel="ffffff"></a></li>
+                                                    <li><a href="" data-rel="f9e7b6"></a></li>
+                                                    <li><a href="" data-rel="ef8a07"></a></li>
+                                                    <li><a href="" data-rel="5a433f"></a></li>
+                                                    <li><a href="" data-rel="ff9bb5"></a></li>
+                                                    <li><a href="" data-rel="8c56a9"></a></li>
+                                                </ul>
+
+                                            </div>
+                                            <div class="col-md-4">
+                                                <h3>${product.detail.additional.other.title}</h3>
+                                                <hr>
+                                                <p>
+                                                    ${product.detail.additional.other.content}
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="tab-pane" id="review">
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h3>${product.detail.review.title}</h3>
+                                                <hr>
+                                                <div class="review-header">
+                                                    <h5>${product.detail.review.clients.client1.name}</h5>
+                                                    <div class="product-rating">
+                                                        <div class="stars">
+                                                            <span class="star active"></span><span class="star active"></span><span class="star active"></span><span class="star active"></span><span class="star active"></span>
+                                                        </div>
+                                                    </div>
+                                                    <small class="text-muted">${product.detail.review.clients.client1.date}</small>
+                                                </div>
+                                                <div class="review-body">
+                                                    <p>${product.detail.review.clients.client1.opinion}</p>
+                                                </div>
+                                                <hr>
+                                                <div class="review-header">
+                                                    <h5>${product.detail.review.clients.client2.name}</h5>
+                                                    <div class="product-rating">
+                                                        <div class="stars">
+                                                            <span class="star"></span><span class="star active"></span><span class="star active"></span><span class="star active"></span><span class="star active"></span>
+                                                        </div>
+                                                    </div>
+                                                    <small class="text-muted">${product.detail.review.clients.client2.date}</small>
+                                                </div>
+                                                <div class="review-body">
+                                                    <p>${product.detail.review.clients.client2.opinion}</p>
+                                                </div>
+                                                <hr>
+                                            </div>
+                                        </div>
+                                        <form role="form" method="post" action="#">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="inputFirstName" class="control-label">${product.detail.review.form.name}<span class="text-error">*</span></label>
+                                                        <div>
+                                                            <input type="text" class="form-control" id="inputFirstName">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="inputCompany" class="control-label">${product.detail.review.form.company}</label>
+                                                        <div>
+                                                            <input type="text" class="form-control" id="inputCompany">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <textarea class="form-control">    </textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label  class="control-label">${product.detail.review.form.rate}</label>
+                                                        <div class="product-rating">
+                                                            <div class="stars">
+                                                                <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <input type="submit"  class="btn-default" value="${product.detail.review.form.btn}">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer-block">
+            <div class="footer-information">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="inner-block">
+                                <div class="header-footer">
+                                    <h3>${footer.column1.block1.title}</h3>
+                                </div>
+                                <p>
+                                    ${footer.column1.block1.paragraph}
+                                </p>
+                            </div>
+                            <div class="inner-block">
+                                <div class="header-footer">
+                                    <h3>${footer.column1.block2.title}</h3>
+                                </div>
+                                <ul class="list-unstyled tags bg_dark">
+                                    <li class="big">
+                                        <a href="${footer.column1.block2.links.link1.url}">
+                                            ${footer.column1.block2.links.link1.text}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="${footer.column1.block2.links.link2.url}">
+                                            ${footer.column1.block2.links.link2.text}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="${footer.column1.block2.links.link3.url}">
+                                            ${footer.column1.block2.links.link3.text}
+                                        </a>
+                                    </li>
+                                    <li class="big">
+                                        <a href="${footer.column1.block2.links.link4.url}">
+                                            ${footer.column1.block2.links.link4.text}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="${footer.column1.block2.links.link5.url}">
+                                            ${footer.column1.block2.links.link5.text}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="${footer.column1.block2.links.link6.url}">
+                                            ${footer.column1.block2.links.link6.text}
+                                        </a>
+                                    </li>
+                                    <li class="big">
+                                        <a href="${footer.column1.block2.links.link7.url}">
+                                            ${footer.column1.block2.links.link7.text}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="${footer.column1.block2.links.link8.url}">
+                                            ${footer.column1.block2.links.link8.text}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="${footer.column1.block2.links.link9.url}">
+                                            ${footer.column1.block2.links.link9.text}
+                                        </a>
+                                    </li>
+                                    <li class="big">
+                                        <a href="${footer.column1.block2.links.link10.url}">
+                                            ${footer.column1.block2.links.link10.text}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="${footer.column1.block2.links.link11.url}">
+                                            ${footer.column1.block2.links.link11.text}
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="inner-block">
+                                <div class="header-footer">
+                                    <h3>${footer.column2.block1.title}</h3>
+                                </div>
+                                <ul class="footer-categories list-unstyled">
+                                    <li>
+                                        <a href="${footer.column2.block1.links.link1.url}">
+                                            ${footer.column2.block1.links.link1.text}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="${footer.column2.block1.links.link2.url}">
+                                            ${footer.column2.block1.links.link2.text}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="${footer.column2.block1.links.link3.url}">
+                                            ${footer.column2.block1.links.link3.text}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="${footer.column2.block1.links.link4.url}">
+                                            ${footer.column2.block1.links.link4.text}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="${footer.column2.block1.links.link5.url}">
+                                            ${footer.column2.block1.links.link5.text}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="${footer.column2.block1.links.link6.url}">
+                                            ${footer.column2.block1.links.link6.text}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="${footer.column2.block1.links.link7.url}">
+                                            ${footer.column2.block1.links.link7.text}
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="inner-block">
+                                <div class="header-footer">
+                                    <h3>${footer.column2.block2.title}</h3>
+                                </div>
+                                <ul class="footer-categories list-unstyled">
+                                    <li>
+                                        <a href="${footer.column2.block2.links.link1.url}">
+                                            ${footer.column2.block2.links.link1.text}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="${footer.column2.block2.links.link2.url}">
+                                            ${footer.column2.block2.links.link2.text}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="${footer.column2.block2.links.link3.url}">
+                                            ${footer.column2.block2.links.link3.text}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="${footer.column2.block2.links.link4.url}">
+                                            ${footer.column2.block2.links.link4.text}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="${footer.column2.block2.links.link5.url}">
+                                            ${footer.column2.block2.links.link5.text}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="${footer.column2.block2.links.link6.url}">
+                                            ${footer.column2.block2.links.link6.text}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="${footer.column2.block2.links.link7.url}">
+                                            ${footer.column2.block2.links.link7.text}
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="inner-block">
+                                <div class="header-footer">
+                                    <h3>${footer.column3.title}</h3>
+                                </div>
+                                <div class="product-small-list light">
+                                    <div class="product-small-list-text-img">
+                                        <img alt="" class="img-responsive" src="${footer.column3.listing.item1.image}">
+                                    </div>
+                                    <div class="product-small-list-text">
+                                        <a href="#" class="product-name">${footer.column3.listing.item1.title}</a>
+                                        <div class="product-rating">
+                                            <div class="stars">
+                                                <span class="star"></span><span class="star active"></span><span class="star active"></span><span class="star active"></span><span class="star active"></span>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">${footer.column3.listing.item1.price}</p>
+                                        <p>
+                                            ${footer.column3.listing.item1.rate}
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="product-small-list light">
+                                    <div class="product-small-list-text-img">
+                                        <img alt="" class="img-responsive" src="${footer.column3.listing.item2.image}">
+                                    </div>
+
+                                    <div class="product-small-list-text">
+                                        <a href="#" class="product-name">${footer.column3.listing.item2.title}</a>
+                                        <div class="product-rating">
+                                            <div class="stars">
+                                                <span class="star"></span><span class="star active"></span><span class="star active"></span><span class="star active"></span><span class="star active"></span>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">${footer.column3.listing.item2.price}</p>
+                                        <p>
+                                            ${footer.column3.listing.item2.rate}
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="product-small-list light">
+                                    <div class="product-small-list-text-img">
+                                        <img alt="" class="img-responsive" src="${footer.column3.listing.item3.image}">
+                                    </div>
+
+                                    <div class="product-small-list-text">
+                                        <a href="#" class="product-name">${footer.column3.listing.item3.title}</a>
+                                        <div class="product-rating">
+                                            <div class="stars">
+                                                <span class="star"></span><span class="star active"></span><span class="star active"></span><span class="star active"></span><span class="star active"></span>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">${footer.column3.listing.item3.price}</p>
+                                        <p>
+                                            ${footer.column3.listing.item3.rate}
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="product-small-list light">
+                                    <div class="product-small-list-text-img">
+                                        <img alt="" class="img-responsive" src="${footer.column3.listing.item4.image}">
+                                    </div>
+                                    <div class="product-small-list-text">
+                                        <a href="#" class="product-name">${footer.column3.listing.item4.title}</a>
+                                        <div class="product-rating">
+                                            <div class="stars">
+                                                <span class="star"></span><span class="star active"></span><span class="star active"></span><span class="star active"></span><span class="star active"></span>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">${footer.column3.listing.item4.price}</p>
+                                        <p>
+                                            ${footer.column3.listing.item4.rate}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="inner-block">
+                                <div class="header-footer">
+                                    <h3>${footer.column4.block1.title}</h3>
+                                </div>
+                                <ul class="footer-categories list-unstyled">
+                                    <li><i class="fa fa-map-marker fa-lg"></i>${footer.column4.block1.address}</li>
+                                    <li><i class="fa fa-phone"></i>${footer.column4.block1.phone1}</li>
+                                    <li><i class="fa fa-print"></i>${footer.column4.block1.phone2}</li>
+                                    <li>
+                                        <a href="${footer.column4.block1.links.link1.url}">
+                                            <i class="fa fa-envelope"></i>${footer.column4.block1.links.link1.text}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="${footer.column4.block1.links.link2.url}">
+                                            <i class="fa fa-envelope"></i>${footer.column4.block1.links.link2.text}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="${footer.column4.block1.links.link3.url}">
+                                            <i class="fa fa-thumb-tack"></i>${footer.column4.block1.links.link3.text}
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="inner-block">
+                                <form class="form-horizonta">
+                                    <input class="form-control" placeholder="${footer.column4.form.name}" name="name">
+                                    <input class="form-control" placeholder="${footer.column4.form.email}" name="email">
+                                    <textarea class="form-control" placeholder="${footer.column4.form.comment}"></textarea>
+                                    <input type="submit" class="btn-default dark" value="${footer.column4.form.btn}">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copy">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>
+                                    ${copyright.text}.
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="footer-payments pull-right">
+                                <li><img src="${copyright.cards.img1}" alt="payment" /></li>
+                                <li><img src="${copyright.cards.img2}" alt="payment" /></li>
+                                <li><img src="${copyright.cards.img3}" alt="payment" /></li>
+                                <li><img src="${copyright.cards.img4}" alt="payment" /></li>
+                                <li><img src="${copyright.cards.img5}" alt="payment" /></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://layouts.herokuapp.com/productTemplate/js/vendor/jquery.js" ></script>
+        <script src="https://layouts.herokuapp.com/productTemplate/js/vendor/jquery.easing.1.3.js"></script>
+        <script src="https://layouts.herokuapp.com/productTemplate/js/vendor/bootstrap.js"></script>
+        <script src="https://layouts.herokuapp.com/productTemplate/js/vendor/jquery.flexisel.js"></script>
+        <script src="https://layouts.herokuapp.com/productTemplate/js/vendor/wow.min.js"></script>
+        <script src="https://layouts.herokuapp.com/productTemplate/js/vendor/jquery.transit.js"></script>
+        <script src="https://layouts.herokuapp.com/productTemplate/js/vendor/jquery.jcountdown.js"></script>
+        <script src="https://layouts.herokuapp.com/productTemplate/js/vendor/jquery.appear.js"></script>
+        <script src="https://layouts.herokuapp.com/productTemplate/js/vendor/owl.carousel.js"></script>
+        <script src="https://layouts.herokuapp.com/productTemplate/js/vendor/responsiveslides.min.js"></script>
+        <script src="https://layouts.herokuapp.com/productTemplate/js/vendor/jquery.elevateZoom-3.0.8.min.js"></script>
+        <script type="text/javascript" src="https://layouts.herokuapp.com/productTemplate/js/vendor/jquery.themepunch.plugins.min.js"></script>
+        <script type="text/javascript" src="https://layouts.herokuapp.com/productTemplate/js/vendor/jquery.themepunch.revolution.min.js"></script>
+        <script type="text/javascript" src="https://layouts.herokuapp.com/productTemplate/js/vendor/jquery.scrollTo-1.4.2-min.js"></script>
+        <script src="https://layouts.herokuapp.com/productTemplate/js/main.js"></script>
+    </body>
+</html>
