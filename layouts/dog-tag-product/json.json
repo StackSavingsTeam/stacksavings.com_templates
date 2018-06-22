@@ -7,19 +7,19 @@
     "product":{
         "gallery":{
             "small":{
-                "img1": "http://placehold.it/65x85",
-                "img2": "http://placehold.it/65x85",
-                "img3": "http://placehold.it/65x85"
+                "img1": "http://layouts.stacksavings.com/dog-tag-product/img/products/1_65x85.jpg",
+                "img2": "http://layouts.stacksavings.com/dog-tag-product/img/products/2_65x85.jpg",
+                "img3": "http://layouts.stacksavings.com/dog-tag-product/img/products/3_65x85.jpg"
             },
             "large":{
-                "img1": "http://placehold.it/750x938",
-                "img2": "http://placehold.it/750x938",
-                "img3": "http://placehold.it/750x938"
+                "img1": "http://layouts.stacksavings.com/dog-tag-product/img/products/1_640x640.jpg",
+                "img2": "http://layouts.stacksavings.com/dog-tag-product/img/products/2_640x640.jpg",
+                "img3": "http://layouts.stacksavings.com/dog-tag-product/img/products/3_640x640.jpg"
             },
             "zoom":{
-                "img1": "http://placehold.it/1000x1333",
-                "img2": "http://placehold.it/1000x1333",
-                "img3": "http://placehold.it/1000x1333"
+                "img1": "http://layouts.stacksavings.com/dog-tag-product/img/products/transparente.png",
+                "img2": "http://layouts.stacksavings.com/dog-tag-product/img/products/transparente.png",
+                "img3": "http://layouts.stacksavings.com/dog-tag-product/img/products/transparente.png"
             }
         },
         "overview":{
@@ -95,55 +95,6 @@
             "block1":{
                 "title":"About us",
                 "paragraph":"We are MosaicDesign group and we make modern, creative tempor incididunt ut labore. Duis aute velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim culpa qui officia deserunt mollit anim id est laborum."
-            },
-            "block2":{
-                "title":"Tags",
-                "links":{
-                    "link1":{
-                        "text":"android",
-                        "url":""
-                    },
-                    "link2":{
-                        "text":"ios",
-                        "url":""
-                    },
-                    "link3":{
-                        "text":"dark",
-                        "url":""
-                    },
-                    "link4":{
-                        "text":"white",
-                        "url":""
-                    },
-                    "link5":{
-                        "text":"iphone",
-                        "url":""
-                    },
-                    "link6":{
-                        "text":"tablet",
-                        "url":""
-                    },
-                    "link7":{
-                        "text":"mobile",
-                        "url":""
-                    },
-                    "link8":{
-                        "text":"smartphone",
-                        "url":""
-                    },
-                    "link9":{
-                        "text":"top",
-                        "url":""
-                    },
-                    "link10":{
-                        "text":"bestseller",
-                        "url":""
-                    },
-                    "link11":{
-                        "text":"new",
-                        "url":""
-                    }
-                }
             }
         },
         "column2":{
@@ -179,109 +130,11 @@
                         "url":""
                     }
                 }
-            },
-            "block2":{
-                "title":"My Account",
-                "links":{
-                    "link1":{
-                        "text":"My Account",
-                        "url":""
-                    },
-                    "link2":{
-                        "text":"Wish List",
-                        "url":""
-                    },
-                    "link3":{
-                        "text":"Order History",
-                        "url":""
-                    },
-                    "link4":{
-                        "text":"Brands",
-                        "url":""
-                    },
-                    "link5":{
-                        "text":"Specials",
-                        "url":""
-                    },
-                    "link6":{
-                        "text":"Newsletter",
-                        "url":""
-                    },
-                    "link7":{
-                        "text":"Secure payment",
-                        "url":""
-                    }
-                }
             }
-        },
-        "column3":{
-            "title":"Bestseller",
-            "listing":{
-                "item1":{
-                    "image":"http://placehold.it/800x1000",
-                    "title":"HTC 3",
-                    "price":"$120.99",
-                    "rate":"Top 1 2014"
-                },
-                "item2":{
-                    "image":"http://placehold.it/800x1000",
-                    "title":"Samsung Galaxy S4",
-                    "price":"$320.99",
-                    "rate":"Populiar 2014"
-                },
-                "item3":{
-                    "image":"http://placehold.it/800x1000",
-                    "title":"Samsung Galaxy S3",
-                    "price":"$320.99",
-                    "rate":"Top search"
-                },
-                "item4":{
-                    "image":"http://placehold.it/800x1000",
-                    "title":"Samsung Galaxy S2",
-                    "price":"$320.99",
-                    "rate":"Recomended"
-                }
-            }
-        },
-        "column4":{
-            "block1":{
-                "title":"Address",
-                "address":"&nbsp; 2901 Marmora Road, Glassgow, Seattle, WA 98122-1090",
-                "phone1":"&nbsp; 9 - 876 - 543 - 210",
-                "phone2":"&nbsp; 1 - 234 - 567 - 890",
-                "links":{
-                    "link1":{
-                        "text":"&nbsp; info@yourdomain.com",
-                        "url":"mailto:info@yourdomain.com"
-                    },
-                    "link2":{
-                        "text":"&nbsp; support@yourdomain.com",
-                        "url":"mailto:support@yourdomain.com"
-                    },
-                    "link3":{
-                        "text":"&nbsp;&nbsp; Location in Google Maps",
-                        "url":"#"
-                    }
-                }
-            },
-            "form":{
-                "name":"Name",
-                "email":"E-mail",
-                "comment":"I want ...",
-                "btn":"Send us"
-            }
-
         }
     },
     "copyright":{
-        "text":"Copyright © 2014  Leman | MosaicGroup.",
-        "cards":{
-            "img1": "https://layouts.herokuapp.com/productTemplate/img/payment-maestro.jpg",
-            "img2": "https://layouts.herokuapp.com/productTemplate/img/payment-discover.jpg",
-            "img3": "https://layouts.herokuapp.com/productTemplate/img/payment-visa.jpg",
-            "img4": "https://layouts.herokuapp.com/productTemplate/img/payment-american-express.jpg",
-            "img5": "https://layouts.herokuapp.com/productTemplate/img/payment-paypal.jpg"
-        }
+        "text":"Copyright © 2014  Leman | MosaicGroup."
     }
 
  }
