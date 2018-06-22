@@ -11,11 +11,11 @@
 }
 
 @font-face {
-    font-family:'Raleway';src:url('fonts/Raleway.eot');src:url('fonts/Raleway.eot?#iefix') format('embedded-opentype'),url('fonts/Raleway.woff') format('woff'),url('fonts/Raleway.ttf') format('truetype'),url('fonts/Raleway.svg#Raleway') format('svg');font-weight:400;font-style:normal;
+    font-family:'Raleway';src:url('https://layouts.stacksavings.com/dog-tag-product/css/fonts/Raleway.eot');src:url('https://layouts.stacksavings.com/dog-tag-product/css/fonts/Raleway.eot?#iefix') format('embedded-opentype'),url('https://layouts.stacksavings.com/dog-tag-product/css/fonts/Raleway.woff') format('woff'),url('https://layouts.stacksavings.com/dog-tag-product/css/fonts/Raleway.ttf') format('truetype'),url('https://layouts.stacksavings.com/dog-tag-product/css/fonts/Raleway.svg#Raleway') format('svg');font-weight:400;font-style:normal;
 }
 
 @font-face {
-    font-family:'OpenSans';src:url('fonts/opensans-regular-webfont.eot');src:url('fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/opensans-regular-webfont.woff') format('woff'),url('fonts/opensans-regular-webfont.ttf') format('truetype'),url('fonts/opensans-regular-webfont.svg#opensans-regular-webfont') format('svg');font-weight:400;font-style:normal;
+    font-family:'OpenSans';src:url('https://layouts.stacksavings.com/dog-tag-product/css/fonts/opensans-regular-webfont.eot');src:url('https://layouts.stacksavings.com/dog-tag-product/css/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),url('https://layouts.stacksavings.com/dog-tag-product/css/fonts/opensans-regular-webfont.woff') format('woff'),url('https://layouts.stacksavings.com/dog-tag-product/css/fonts/opensans-regular-webfont.ttf') format('truetype'),url('https://layouts.stacksavings.com/dog-tag-product/css/fonts/opensans-regular-webfont.svg#opensans-regular-webfont') format('svg');font-weight:400;font-style:normal;
 }
 
 .opensans {
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-    font-family:'Montserrat';src:url('fonts/montserrat-regular-webfont.eot');src:url('fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/montserrat-regular-webfont.woff') format('woff'),url('fonts/montserrat-regular-webfont.ttf') format('truetype'),url('fonts/montserrat-regular-webfont.svg#OpenSans') format('svg');font-weight:400;font-style:normal;
+    font-family:'Montserrat';src:url('https://layouts.stacksavings.com/dog-tag-product/css/fonts/montserrat-regular-webfont.eot');src:url('https://layouts.stacksavings.com/dog-tag-product/css/fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),url('https://layouts.stacksavings.com/dog-tag-product/css/fonts/montserrat-regular-webfont.woff') format('woff'),url('https://layouts.stacksavings.com/dog-tag-product/css/fonts/montserrat-regular-webfont.ttf') format('truetype'),url('https://layouts.stacksavings.com/dog-tag-product/css/fonts/montserrat-regular-webfont.svg#OpenSans') format('svg');font-weight:400;font-style:normal;
 }
 
 .montserrat {
@@ -908,12 +908,12 @@ blockquote p,.block-form blockquote p {
 }
 
 .navbar-main .top-icon-block .header-mini-cart.dark {
-    background: url("../img/shopping_cart_d.png") top center no-repeat;
+    background: url("https://layouts.stacksavings.com/dog-tag-product/img/shopping_cart_d.png") top center no-repeat;
 }
 
 .navbar-main .top-icon-block .header-mini-cart {
     position: relative;
-    background: url("../img/shopping_cart.png") top center no-repeat;
+    background: url("https://layouts.stacksavings.com/dog-tag-product/img/shopping_cart.png") top center no-repeat;
     min-width: 50px;
     border-radius: 3px;
     text-align: center;
@@ -3379,14 +3379,14 @@ blockquote {
 }
 
 .block-collections.item1 {
-    background-image: url("../img/bg/bg-item1.jpg");
+    background-image: url("https://layouts.stacksavings.com/dog-tag-product/img/bg/bg-item1.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
 }
 
 .block-collections.item2 {
-    background-image: url("../img/bg/bg-item2.jpg");
+    background-image: url("https://layouts.stacksavings.com/dog-tag-product/img/bg/bg-item2.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -3423,14 +3423,14 @@ blockquote {
 }
 
 #section-featured {
-    background-image: url("../img/bg/bg2.jpg");
+    background-image: url("https://layouts.stacksavings.com/dog-tag-product/img/bg/bg2.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
 }
 
 #section-fucts {
-    background-image: url("../img/bg/bg1.jpg");
+    background-image: url("https://layouts.stacksavings.com/dog-tag-product/img/bg/bg1.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -4018,7 +4018,9 @@ blockquote {
 
 .second-page-header {
     position: relative;
-    padding: 30px 0;
+    margin-top: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .second-page-header .breadcrumb {
@@ -4077,7 +4079,7 @@ blockquote {
 }
 
 .second-page-header.dark {
-    background-image: url("../img/bg/bg-header1.jpg");
+    background-image: url("https://layouts.stacksavings.com/dog-tag-product/img/bg/bg-header1.jpg");
     background-size: cover;
     background-position: center center;
 }
@@ -4332,7 +4334,7 @@ blockquote {
 }
 
 .section-ad-service {
-    background-image: url("../img/bg/bg1.jpg");
+    background-image: url("https://layouts.stacksavings.com/dog-tag-product/img/bg/bg1.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -4340,76 +4342,76 @@ blockquote {
 
 .block-feature {
     position: relative;
-    background-image: url("../img/bg/bg-banner1.jpg");
+    background-image: url("https://layouts.stacksavings.com/dog-tag-product/img/bg/bg-banner1.jpg");
     background-size: cover;
     background-position: bottom center;
 }
 
 .block-feature1 {
     position: relative;
-    background-image: url("../img/bg/bg-banner2.jpg");
+    background-image: url("https://layouts.stacksavings.com/dog-tag-product/img/bg/bg-banner2.jpg");
     background-size: cover;
     background-position: bottom center;
 }
 
 .block-fashion {
     position: relative;
-    background-image: url("../img/bg/bg5.jpg");
+    background-image: url("https://layouts.stacksavings.com/dog-tag-product/img/bg/bg5.jpg");
     background-size: cover;
     background-position: bottom center;
 }
 
 .newsletter {
-    background-image: url("../img/bg/bg-newsletter.jpg");
+    background-image: url("https://layouts.stacksavings.com/dog-tag-product/img/bg/bg-newsletter.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
 }
 
 .hexagon-service {
-    background-image: url("../img/bg/bg7.jpg");
+    background-image: url("https://layouts.stacksavings.com/dog-tag-product/img/bg/bg7.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
 }
 
 .client-say {
-    background-image: url("../img/bg/bg3.jpg");
+    background-image: url("https://layouts.stacksavings.com/dog-tag-product/img/bg/bg3.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
 }
 
 .contact-bg {
-    background-image: url("../img/bg/bg-contact.jpg");
+    background-image: url("https://layouts.stacksavings.com/dog-tag-product/img/bg/bg-contact.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
 }
 
 .block-chess-banners {
-    background-image: url("../img/bg/bg2.jpg");
+    background-image: url("https://layouts.stacksavings.com/dog-tag-product/img/bg/bg2.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
 }
 
 #feature-section {
-    background-image: url("../img/bg/bg6.jpg");
+    background-image: url("https://layouts.stacksavings.com/dog-tag-product/img/bg/bg6.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
 }
 
 #sale-section {
-    background-image: url("../img/bg/bg5.jpg");
+    background-image: url("https://layouts.stacksavings.com/dog-tag-product/img/bg/bg5.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
 }
 
 .partners {
-    background-image: url("../img/bg/bg-part.jpg");
+    background-image: url("https://layouts.stacksavings.com/dog-tag-product/img/bg/bg-part.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -4420,29 +4422,28 @@ blockquote {
 }
 
 #footer-block {
-    background-image: url("../img/bg/bg4.jpg");
+    /*background-image: url("https://layouts.stacksavings.com/dog-tag-product/img/bg/bg4.jpg");*/
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
 }
 
 .menu2 {
-    background: url("../img/preview/menu-bg1.jpg") no-repeat bottom right;
+    background: url("https://layouts.stacksavings.com/dog-tag-product/img/preview/menu-bg1.jpg") no-repeat bottom right;
 }
 
 .menu1 {
-    background: url("../img/preview/menu-bg2.jpg") no-repeat bottom right;
+    background: url("https://layouts.stacksavings.com/dog-tag-product/img/preview/menu-bg2.jpg") no-repeat bottom right;
 }
 
 .menu3 {
-    background: url("../img/preview/menu-bg3.jpg") no-repeat bottom right;
+    background: url("https://layouts.stacksavings.com/dog-tag-product/img/preview/menu-bg3.jpg") no-repeat bottom right;
 }
 
 .menu4 {
-    background: url("../img/preview/menu-bg4.jpg") no-repeat bottom right;
+    background: url("https://layouts.stacksavings.com/dog-tag-product/img/preview/menu-bg4.jpg") no-repeat bottom right;
 }
 
 .menu5 {
-    background: url("../img/preview/menu-bg5.jpg") no-repeat bottom right;
+    background: url("https://layouts.stacksavings.com/dog-tag-product/img/preview/menu-bg5.jpg") no-repeat bottom right;
 }
-
