@@ -1,34 +1,91 @@
 {
-    "title":"Leman, premium HTML5&AMP;CSS3 template",
+    "title":{
+      "groupDisplayName": "Title",
+      "showInputField": true,
+      "content":"Leman, premium HTML5&AMP;CSS3 template"
+    },
     "header":{
-         "logo":"https://layouts.herokuapp.com/productTemplate/img/logo-big-shop.png",
-         "title":"Product Detail"
+         "groupDisplayName": "Header",
+         "logo":{
+            "showInputField": true,
+            "content":"Leam"
+         },
+         "title":{
+            "showInputField": true,
+            "content":"Product Detail"
+         }
     },
     "product":{
+        "groupDisplayName": "Product",
         "gallery":{
             "small":{
-                "img1": "http://layouts.stacksavings.com/dog-tag-product/img/products/1_65x85.jpg",
-                "img2": "http://layouts.stacksavings.com/dog-tag-product/img/products/2_65x85.jpg",
-                "img3": "http://layouts.stacksavings.com/dog-tag-product/img/products/3_65x85.jpg"
+                "img1": {
+                  "showInputField": true,
+                  "content":"http://layouts.stacksavings.com/dog-tag-product/img/products/1_65x85.jpg"
+                },
+                "img2": {
+                  "showInputField": true,
+                  "content":"http://layouts.stacksavings.com/dog-tag-product/img/products/2_65x85.jpg"
+                },
+                "img3": {
+                  "showInputField": true,
+                  "content":"http://layouts.stacksavings.com/dog-tag-product/img/products/3_65x85.jpg"
+                }
             },
             "large":{
-                "img1": "http://layouts.stacksavings.com/dog-tag-product/img/products/1_640x640.jpg",
-                "img2": "http://layouts.stacksavings.com/dog-tag-product/img/products/2_640x640.jpg",
-                "img3": "http://layouts.stacksavings.com/dog-tag-product/img/products/3_640x640.jpg"
+                "img1": {
+                  "showInputField": true,
+                  "content":"http://layouts.stacksavings.com/dog-tag-product/img/products/1_640x640.jpg"
+                },
+                "img2": {
+                  "showInputField": true,
+                  "content":"http://layouts.stacksavings.com/dog-tag-product/img/products/2_640x640.jpg"
+                },
+                "img3": {
+                  "showInputField": true,
+                  "content":"http://layouts.stacksavings.com/dog-tag-product/img/products/3_640x640.jpg"
+                }
             }
         },
         "overview":{
-            "title":"Long red Dress",
-            "review":"10 Reviews",
-            "brand":"MusaicDesign",
-            "collection":"Leman",
-            "code":"ID 17232451",
-            "size":{
-                "item1": "L",
-                "item2": "XL",
-                "item3": "XLL"
+            "title":{
+              "showInputField": true,
+              "content": "Long red Dress"
             },
-            "availability":"150 in stock",
+            "review":{
+              "showInputField": true,
+              "content":"10 Reviews"
+            },
+            "brand":{
+              "showInputField": true,
+              "content":"MusaicDe sign"
+            },
+            "collection":{
+              "showInputField": true,
+              "content":"Leman"
+            },
+            "code":{
+              "showInputField": true,
+              "content":"ID 17232451"
+            },
+            "size":{
+                "item1": {
+                  "showInputField": true,
+                  "content":"L"
+                },
+                "item2": {
+                  "showInputField": true,
+                  "content":"XL"
+                },
+                "item3": {
+                  "showInputField": true,
+                  "content":"XLL"
+                }
+            },
+            "availability":{
+              "showInputField": true,
+              "content":"150 in stock"
+            },
             "overviewDescription":{
               "showInputField": true,
               "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt"
@@ -37,17 +94,35 @@
                 "before": "$469.99",
                 "after":"$450.99"
             },
-            "total":"$850",
-            "btn":"Add to cart"
+            "total":{
+              "showInputField": true,
+              "content":"$850"
+            },
+            "btn":{
+              "showInputField": true,
+              "content":"Add to cart"
+            }
         },
         "detail":{
             "nav":{
-                "item1": "Description",
-                "item2": "Additional",
-                "item3": "Review"
+                "item1": {
+                  "showInputField": true,
+                  "content":"Description"
+                },
+                "item2": {
+                  "showInputField": true,
+                  "content":"Additional"
+                },
+                "item3": {
+                  "showInputField": true,
+                  "content":"Review"
+                }
             },
             "description":{
-                "title":"Product Details",
+                "title":{
+                  "showInputField": true,
+                  "content":"Product Details"
+                },
                 "detailContent":{
                   "showInputField": true,
                   "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.",
@@ -56,18 +131,27 @@
             },
             "additional":{
                 "sizes":{
-                    "title":"Sizes",
+                    "title":{
+                      "showInputField": true,
+                      "content":"Sizes"
+                    },
                     "additionalContent":{
                       "showInputField": true,
                       "content":"Lorem ipsum dolor sit amet, consectetur adipisicing elit ollit anim id est laborum."
                     }
                 },
                 "colors":{
-                    "title":"Colors",
+                    "title":{
+                      "showInputField": true,
+                      "content":"Colors"
+                    },
                     "content":""
                 },
                 "other":{
-                    "title":"Other",
+                    "title":{
+                      "showInputField": true,
+                      "content":"Other"
+                    },
                     "otherContent":{
                         "showInputField": true,
                         "content":"Lorem ipsum dolor sit amet, consectetur adipisicing elit ollit anim id est laborum."
@@ -75,33 +159,73 @@
                 }
             },
             "review":{
-                "title":"Clients review",
+                "title":{
+                  "showInputField": true,
+                  "content":"Clients review"
+                },
                 "clients":{
                     "client1":{
-                        "name":"John Smith",
-                        "date":"26/06/2014",
-                        "opinion":"Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+                        "name":{
+                          "showInputField": true,
+                          "content":"John Smith"
+                        },
+                        "date":{
+                          "showInputField": true,
+                          "content":"26/06/2014"
+                        },
+                        "opinion":{
+                          "showInputField": true,
+                          "content":"Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+                        }
                     },
                     "client2":{
-                        "name":"Tom Carry",
-                        "date":"05/07/2014",
-                        "opinion":"Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+                        "name":{
+                          "showInputField": true,
+                          "content":"Tom Carry"
+                        },
+                        "date":{
+                          "showInputField": true,
+                          "content":"05/07/2014"
+                        },
+                        "opinion":{
+                          "showInputField": true,
+                          "content":"Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+                        }
                     }
                 },
                 "form":{
-                    "name":"First Name:",
-                    "company":"Company:",
-                    "rate":"Your Rate:",
-                    "btn":"Add Review"
+                    "name":{
+                      "showInputField": true,
+                      "content":"First Name:"
+                    },
+                    "company":{
+                      "showInputField": true,
+                      "content":"Company:"
+                    },
+                    "rate":{
+                      "showInputField": true,
+                      "content":"Your Rate:"
+                    },
+                    "btn":{
+                      "showInputField": true,
+                      "content":"Add Review"
+                    }
                 }
 
             }
         }
     } ,
     "footer":{
+        "groupDisplayName": {
+            "showInputField": true,
+            "content":"Footer"
+        },
         "column1":{
             "block1":{
-                "title":"About us",
+                "title":{
+                  "showInputField": true,
+                  "content":"About us"
+                },
                 "footerParagraph":{
                   "showInputField": true,
                   "content":"We are MosaicDesign group and we make modern, creative tempor incididunt ut labore. Duis aute velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim culpa qui officia deserunt mollit anim id est laborum.",
@@ -111,42 +235,90 @@
         },
         "column2":{
             "block1":{
-                "title":"Information",
+                "title":{
+                  "showInputField": true,
+                  "content":"Information"
+                },
                 "links":{
                     "link1":{
-                        "text":"About Us",
-                        "url":""
+                        "text":{
+                          "showInputField": true,
+                          "content":"About Us"
+                        },
+                        "url":{
+                          "showInputField": true,
+                          "content":""
+                        }
                     },
                     "link2":{
-                        "text":"Contact Us",
-                        "url":""
+                        "text":{
+                          "showInputField": true,
+                          "content":"Contact Us"
+                        },
+                        "url":{
+                          "showInputField": true,
+                          "content":""
+                        }
                     },
                     "link3":{
-                        "text":"Delivery Information",
-                        "url":""
+                        "text":{
+                          "showInputField": true,
+                          "content":"Delivery Information"
+                        },
+                        "url":{
+                          "showInputField": true,
+                          "content":""
+                        }
                     },
                     "link4":{
-                        "text":"Privacy Policy",
-                        "url":""
+                        "text":{
+                          "showInputField": true,
+                          "content":"Privacy Policy"
+                        },
+                        "url":{
+                          "showInputField": true,
+                          "content":""
+                        }
                     },
                     "link5":{
-                        "text":"Terms & Conditions",
-                        "url":""
+                        "text":{
+                          "showInputField": true,
+                          "content":"Terms & Conditions"
+                        },
+                        "url":{
+                          "showInputField": true,
+                          "content":""
+                        }
                     },
                     "link6":{
-                        "text":"Site Map",
-                        "url":""
+                        "text":{
+                          "showInputField": true,
+                          "content":"Site Map"
+                        },
+                        "url":{
+                          "showInputField": true,
+                          "content":""
+                        }
                     },
                     "link7":{
-                        "text":"Returns",
-                        "url":""
+                        "text":{
+                          "showInputField": true,
+                          "content":"Returns"
+                        },
+                        "url":{
+                          "showInputField": true,
+                          "content":""
+                        }
                     }
                 }
             }
         }
     },
     "copyright":{
-        "text":"Copyright © 2014  Leman | MosaicGroup."
+        "text":{
+            "showInputField": true,
+            "content":"Copyright © 2014  Leman | MosaicGroup."
+        }
     }
 
  }
