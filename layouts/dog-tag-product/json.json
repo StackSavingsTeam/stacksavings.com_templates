@@ -1,324 +1,322 @@
 {
-    "title":{
-      "groupDisplayName": "Title",
-      "showInputField": true,
-      "content":"Leman, premium HTML5&AMP;CSS3 template"
-    },
-    "header":{
-         "groupDisplayName": "Header",
-         "logo":{
-            "showInputField": true,
-            "content":"Leam"
-         },
-         "title":{
-            "showInputField": true,
-            "content":"Product Detail"
-         }
-    },
-    "product":{
-        "groupDisplayName": "Product",
-        "gallery":{
-            "small":{
-                "img1": {
-                  "showInputField": true,
-                  "content":"http://layouts.stacksavings.com/dog-tag-product/img/products/1_65x85.jpg"
-                },
-                "img2": {
-                  "showInputField": true,
-                  "content":"http://layouts.stacksavings.com/dog-tag-product/img/products/2_65x85.jpg"
-                },
-                "img3": {
-                  "showInputField": true,
-                  "content":"http://layouts.stacksavings.com/dog-tag-product/img/products/3_65x85.jpg"
-                }
-            },
-            "large":{
-                "img1": {
-                  "showInputField": true,
-                  "content":"http://layouts.stacksavings.com/dog-tag-product/img/products/1_640x640.jpg"
-                },
-                "img2": {
-                  "showInputField": true,
-                  "content":"http://layouts.stacksavings.com/dog-tag-product/img/products/2_640x640.jpg"
-                },
-                "img3": {
-                  "showInputField": true,
-                  "content":"http://layouts.stacksavings.com/dog-tag-product/img/products/3_640x640.jpg"
-                }
-            }
-        },
-        "overview":{
-            "title":{
-              "showInputField": true,
-              "content": "Long red Dress"
-            },
-            "review":{
-              "showInputField": true,
-              "content":"10 Reviews"
-            },
-            "brand":{
-              "showInputField": true,
-              "content":"MusaicDe sign"
-            },
-            "collection":{
-              "showInputField": true,
-              "content":"Leman"
-            },
-            "code":{
-              "showInputField": true,
-              "content":"ID 17232451"
-            },
-            "size":{
-                "item1": {
-                  "showInputField": true,
-                  "content":"L"
-                },
-                "item2": {
-                  "showInputField": true,
-                  "content":"XL"
-                },
-                "item3": {
-                  "showInputField": true,
-                  "content":"XLL"
-                }
-            },
-            "availability":{
-              "showInputField": true,
-              "content":"150 in stock"
-            },
-            "overviewDescription":{
-              "showInputField": true,
-              "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt"
-            },
-            "price":{
-                "before": "$469.99",
-                "after":"$450.99"
-            },
-            "total":{
-              "showInputField": true,
-              "content":"$850"
-            },
-            "btn":{
-              "showInputField": true,
-              "content":"Add to cart"
-            }
-        },
-        "detail":{
-            "nav":{
-                "item1": {
-                  "showInputField": true,
-                  "content":"Description"
-                },
-                "item2": {
-                  "showInputField": true,
-                  "content":"Additional"
-                },
-                "item3": {
-                  "showInputField": true,
-                  "content":"Review"
-                }
-            },
-            "description":{
-                "title":{
-                  "showInputField": true,
-                  "content":"Product Details"
-                },
-                "detailContent":{
-                  "showInputField": true,
-                  "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.",
-                  "type": "markdown"
-                }
-            },
-            "additional":{
-                "sizes":{
-                    "title":{
-                      "showInputField": true,
-                      "content":"Sizes"
-                    },
-                    "additionalContent":{
-                      "showInputField": true,
-                      "content":"Lorem ipsum dolor sit amet, consectetur adipisicing elit ollit anim id est laborum."
-                    }
-                },
-                "colors":{
-                    "title":{
-                      "showInputField": true,
-                      "content":"Colors"
-                    },
-                    "content":""
-                },
-                "other":{
-                    "title":{
-                      "showInputField": true,
-                      "content":"Other"
-                    },
-                    "otherContent":{
-                        "showInputField": true,
-                        "content":"Lorem ipsum dolor sit amet, consectetur adipisicing elit ollit anim id est laborum."
-                    }
-                }
-            },
-            "review":{
-                "title":{
-                  "showInputField": true,
-                  "content":"Clients review"
-                },
-                "clients":{
-                    "client1":{
-                        "name":{
-                          "showInputField": true,
-                          "content":"John Smith"
-                        },
-                        "date":{
-                          "showInputField": true,
-                          "content":"26/06/2014"
-                        },
-                        "opinion":{
-                          "showInputField": true,
-                          "content":"Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-                        }
-                    },
-                    "client2":{
-                        "name":{
-                          "showInputField": true,
-                          "content":"Tom Carry"
-                        },
-                        "date":{
-                          "showInputField": true,
-                          "content":"05/07/2014"
-                        },
-                        "opinion":{
-                          "showInputField": true,
-                          "content":"Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-                        }
-                    }
-                },
-                "form":{
-                    "name":{
-                      "showInputField": true,
-                      "content":"First Name:"
-                    },
-                    "company":{
-                      "showInputField": true,
-                      "content":"Company:"
-                    },
-                    "rate":{
-                      "showInputField": true,
-                      "content":"Your Rate:"
-                    },
-                    "btn":{
-                      "showInputField": true,
-                      "content":"Add Review"
-                    }
-                }
-
-            }
-        }
-    } ,
-    "footer":{
-        "groupDisplayName": {
-            "showInputField": true,
-            "content":"Footer"
-        },
-        "column1":{
-            "block1":{
-                "title":{
-                  "showInputField": true,
-                  "content":"About us"
-                },
-                "footerParagraph":{
-                  "showInputField": true,
-                  "content":"We are MosaicDesign group and we make modern, creative tempor incididunt ut labore. Duis aute velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim culpa qui officia deserunt mollit anim id est laborum.",
-                  "type": "markdown"
-                }
-            }
-        },
-        "column2":{
-            "block1":{
-                "title":{
-                  "showInputField": true,
-                  "content":"Information"
-                },
-                "links":{
-                    "link1":{
-                        "text":{
-                          "showInputField": true,
-                          "content":"About Us"
-                        },
-                        "url":{
-                          "showInputField": true,
-                          "content":""
-                        }
-                    },
-                    "link2":{
-                        "text":{
-                          "showInputField": true,
-                          "content":"Contact Us"
-                        },
-                        "url":{
-                          "showInputField": true,
-                          "content":""
-                        }
-                    },
-                    "link3":{
-                        "text":{
-                          "showInputField": true,
-                          "content":"Delivery Information"
-                        },
-                        "url":{
-                          "showInputField": true,
-                          "content":""
-                        }
-                    },
-                    "link4":{
-                        "text":{
-                          "showInputField": true,
-                          "content":"Privacy Policy"
-                        },
-                        "url":{
-                          "showInputField": true,
-                          "content":""
-                        }
-                    },
-                    "link5":{
-                        "text":{
-                          "showInputField": true,
-                          "content":"Terms & Conditions"
-                        },
-                        "url":{
-                          "showInputField": true,
-                          "content":""
-                        }
-                    },
-                    "link6":{
-                        "text":{
-                          "showInputField": true,
-                          "content":"Site Map"
-                        },
-                        "url":{
-                          "showInputField": true,
-                          "content":""
-                        }
-                    },
-                    "link7":{
-                        "text":{
-                          "showInputField": true,
-                          "content":"Returns"
-                        },
-                        "url":{
-                          "showInputField": true,
-                          "content":""
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "copyright":{
-        "text":{
-            "showInputField": true,
-            "content":"Copyright © 2014  Leman | MosaicGroup."
-        }
-    }
-
- }
+	"title": {
+		"groupDisplayName": "Title",
+		"showInputField": true,
+		"content": "Leman, premium HTML5&AMP;CSS3 template"
+	},
+	"header": {
+		"groupDisplayName": "Header",
+		"logo": {
+			"showInputField": true,
+			"content": "Leam"
+		},
+		"titleHeader": {
+			"showInputField": true,
+			"content": "Product Detail"
+		}
+	},
+	"product": {
+		"groupDisplayName": "Product",
+		"gallery": {
+			"small": {
+				"smallImg1": {
+					"showInputField": true,
+					"content": "http://layouts.stacksavings.com/dog-tag-product/img/products/1_65x85.jpg"
+				},
+				"smallImg2": {
+					"showInputField": true,
+					"content": "http://layouts.stacksavings.com/dog-tag-product/img/products/2_65x85.jpg"
+				},
+				"smallImg3": {
+					"showInputField": true,
+					"content": "http://layouts.stacksavings.com/dog-tag-product/img/products/3_65x85.jpg"
+				}
+			},
+			"large": {
+				"largeImg1": {
+					"showInputField": true,
+					"content": "http://layouts.stacksavings.com/dog-tag-product/img/products/1_640x640.jpg"
+				},
+				"largeImg2": {
+					"showInputField": true,
+					"content": "http://layouts.stacksavings.com/dog-tag-product/img/products/2_640x640.jpg"
+				},
+				"largeImg3": {
+					"showInputField": true,
+					"content": "http://layouts.stacksavings.com/dog-tag-product/img/products/3_640x640.jpg"
+				}
+			}
+		},
+		"overview": {
+			"title1": {
+				"showInputField": true,
+				"content": "Long red Dress"
+			},
+			"review": {
+				"showInputField": true,
+				"content": "10 Reviews"
+			},
+			"brand": {
+				"showInputField": true,
+				"content": "MusaicDe sign"
+			},
+			"collection": {
+				"showInputField": true,
+				"content": "Leman"
+			},
+			"code": {
+				"showInputField": true,
+				"content": "ID 17232451"
+			},
+			"size": {
+				"item1": {
+					"showInputField": true,
+					"content": "L"
+				},
+				"item2": {
+					"showInputField": true,
+					"content": "XL"
+				},
+				"item3": {
+					"showInputField": true,
+					"content": "XLL"
+				}
+			},
+			"availability": {
+				"showInputField": true,
+				"content": "150 in stock"
+			},
+			"overviewDescription": {
+				"showInputField": true,
+				"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt"
+			},
+			"price": {
+				"before": "$469.99",
+				"after": "$450.99"
+			},
+			"total": {
+				"showInputField": true,
+				"content": "$850"
+			},
+			"btn1": {
+				"showInputField": true,
+				"content": "Add to cart"
+			}
+		},
+		"detail": {
+			"nav": {
+				"navItem1": {
+					"showInputField": true,
+					"content": "Description"
+				},
+				"navItem2": {
+					"showInputField": true,
+					"content": "Additional"
+				},
+				"navItem3": {
+					"showInputField": true,
+					"content": "Review"
+				}
+			},
+			"description": {
+				"title2": {
+					"showInputField": true,
+					"content": "Product Details"
+				},
+				"detailContent": {
+					"showInputField": true,
+					"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.",
+					"type": "markdown"
+				}
+			},
+			"additional": {
+				"sizes": {
+					"title3": {
+						"showInputField": true,
+						"content": "Sizes"
+					},
+					"additionalContent": {
+						"showInputField": true,
+						"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit ollit anim id est laborum."
+					}
+				},
+				"colors": {
+					"title4": {
+						"showInputField": true,
+						"content": "Colors"
+					},
+					"content": {
+						"showInputField": true,
+						"content": ""
+					}
+				},
+				"other": {
+					"title5": {
+						"showInputField": true,
+						"content": "Other"
+					},
+					"otherContent": {
+						"showInputField": true,
+						"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit ollit anim id est laborum."
+					}
+				}
+			},
+			"review": {
+				"title6": {
+					"showInputField": true,
+					"content": "Clients review"
+				},
+				"clients": {
+					"client1": {
+						"name1": {
+							"showInputField": true,
+							"content": "John Smith"
+						},
+						"date1": {
+							"showInputField": true,
+							"content": "26/06/2014"
+						},
+						"opinion1": {
+							"showInputField": true,
+							"content": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+						}
+					},
+					"client2": {
+						"name2": {
+							"showInputField": true,
+							"content": "Tom Carry"
+						},
+						"date2": {
+							"showInputField": true,
+							"content": "05/07/2014"
+						},
+						"opinion2": {
+							"showInputField": true,
+							"content": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+						}
+					}
+				},
+				"form": {
+					"name3": {
+						"showInputField": true,
+						"content": "First Name:"
+					},
+					"company": {
+						"showInputField": true,
+						"content": "Company:"
+					},
+					"rate": {
+						"showInputField": true,
+						"content": "Your Rate:"
+					},
+					"btn2": {
+						"showInputField": true,
+						"content": "Add Review"
+					}
+				}
+			}
+		}
+	},
+	"footer": {
+		"groupDisplayName": "Footer",
+		"column1": {
+			"block1": {
+				"title1": {
+					"showInputField": true,
+					"content": "About us"
+				},
+				"footerParagraph": {
+					"showInputField": true,
+					"content": "We are MosaicDesign group and we make modern, creative tempor incididunt ut labore. Duis aute velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim culpa qui officia deserunt mollit anim id est laborum.",
+					"type": "markdown"
+				}
+			}
+		},
+		"column2": {
+			"block1": {
+				"title2": {
+					"showInputField": true,
+					"content": "Information"
+				},
+				"links": {
+					"link1": {
+						"text1": {
+							"showInputField": true,
+							"content": "About Us"
+						},
+						"url1": {
+							"showInputField": true,
+							"content": ""
+						}
+					},
+					"link2": {
+						"text2": {
+							"showInputField": true,
+							"content": "Contact Us"
+						},
+						"url2": {
+							"showInputField": true,
+							"content": ""
+						}
+					},
+					"link3": {
+						"text3": {
+							"showInputField": true,
+							"content": "Delivery Information"
+						},
+						"url3": {
+							"showInputField": true,
+							"content": ""
+						}
+					},
+					"link4": {
+						"text4": {
+							"showInputField": true,
+							"content": "Privacy Policy"
+						},
+						"url4": {
+							"showInputField": true,
+							"content": ""
+						}
+					},
+					"link5": {
+						"text5": {
+							"showInputField": true,
+							"content": "Terms & Conditions"
+						},
+						"url5": {
+							"showInputField": true,
+							"content": ""
+						}
+					},
+					"link6": {
+						"text6": {
+							"showInputField": true,
+							"content": "Site Map"
+						},
+						"url6": {
+							"showInputField": true,
+							"content": ""
+						}
+					},
+					"link7": {
+						"text7": {
+							"showInputField": true,
+							"content": "Returns"
+						},
+						"url7": {
+							"showInputField": true,
+							"content": ""
+						}
+					}
+				}
+			}
+		}
+	},
+	"copyright": {
+		"text": {
+			"showInputField": true,
+			"content": "Copyright © 2014  Leman | MosaicGroup."
+		}
+	}
+}
