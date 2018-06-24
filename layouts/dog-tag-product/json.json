@@ -1,16 +1,15 @@
 {
-	"title": {
-		"groupDisplayName": "Title",
-		"showInputField": true,
-		"content": "Leman, premium HTML5&AMP;CSS3 template"
-	},
 	"header": {
 		"groupDisplayName": "Header",
+		"titleHeader1": {
+			"showInputField": true,
+			"content": "Leman, premium HTML5&AMP;CSS3 template"
+		},
 		"logo": {
 			"showInputField": true,
 			"content": "Leam"
 		},
-		"titleHeader": {
+		"titleHeader2": {
 			"showInputField": true,
 			"content": "Product Detail"
 		}
@@ -56,17 +55,33 @@
 				"showInputField": true,
 				"content": "10 Reviews"
 			},
+			"label1": {
+			  "showInputField": true,
+				"content": "Brand"
+			},
 			"brand": {
 				"showInputField": true,
 				"content": "MusaicDe sign"
+			},
+			"label2": {
+			  "showInputField": true,
+				"content": "Collection"
 			},
 			"collection": {
 				"showInputField": true,
 				"content": "Leman"
 			},
+			"label3": {
+			  "showInputField": true,
+				"content": "Product Code"
+			},
 			"code": {
 				"showInputField": true,
 				"content": "ID 17232451"
+			},
+			"label4": {
+			  "showInputField": true,
+				"content": "Size"
 			},
 			"size": {
 				"item1": {
@@ -82,17 +97,37 @@
 					"content": "XLL"
 				}
 			},
+			"label5": {
+			  "showInputField": true,
+				"content": "Availability"
+			},
 			"availability": {
 				"showInputField": true,
 				"content": "150 in stock"
+			},
+			"label6": {
+			  "showInputField": true,
+				"content": "Description"
 			},
 			"overviewDescription": {
 				"showInputField": true,
 				"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt"
 			},
+			"label7": {
+			  "showInputField": true,
+				"content": "Price"
+			},
 			"price": {
 				"before": "$469.99",
 				"after": "$450.99"
+			},
+			"label8": {
+			  "showInputField": true,
+				"content": "Quantity"
+			},
+			"label9": {
+			  "showInputField": true,
+				"content": "Total"
 			},
 			"total": {
 				"showInputField": true,
@@ -311,12 +346,12 @@
 					}
 				}
 			}
-		}
-	},
-	"copyright": {
+		},
+		"copyright": {
 		"text": {
 			"showInputField": true,
 			"content": "Copyright © 2014  Leman | MosaicGroup."
 		}
+	}
 	}
 }
