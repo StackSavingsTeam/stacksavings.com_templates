@@ -1,0 +1,321 @@
+{
+	"header": {
+		"groupDisplayName": "Header",
+		"titleHeader1": {
+			"showInputField": true,
+			"content": "StackSavings"
+		},
+		"logo": {
+			"showInputField": true,
+			"content": "StackSavings"
+		},
+		"titleHeader2": {
+			"showInputField": true,
+			"content": "Detalles del Producto"
+		}
+	},
+	"product": {
+		"groupDisplayName": "Product",
+		"gallery": {
+			"small": {
+				"smallImg1": {
+					"showInputField": true,
+					"content": "http://layouts.stacksavings.com/dog-tag-product/img/products/1_65x85.jpg?1"
+				},
+				"smallImg2": {
+					"showInputField": true,
+					"content": "http://layouts.stacksavings.com/dog-tag-product/img/products/2_65x85.jpg?1?1"
+				},
+				"smallImg3": {
+					"showInputField": true,
+					"content": "http://layouts.stacksavings.com/dog-tag-product/img/products/3_65x85.jpg?1"
+				}
+			},
+			"large": {
+				"largeImg1": {
+					"showInputField": true,
+					"content": "http://layouts.stacksavings.com/dog-tag-product/img/products/1_640x640.jpg?1"
+				},
+				"largeImg2": {
+					"showInputField": true,
+					"content": "http://layouts.stacksavings.com/dog-tag-product/img/products/2_640x640.jpg?1"
+				},
+				"largeImg3": {
+					"showInputField": true,
+					"content": "http://layouts.stacksavings.com/dog-tag-product/img/products/3_640x640.jpg?1"
+				}
+			}
+		},
+		"overview": {
+			"title1": {
+				"showInputField": true,
+				"content": "Zapatos para Bebés"
+			},
+			"review": {
+				"showInputField": true,
+				"content": "1471 Calificaciones"
+			},
+			"brand": {
+				"showInputField": true,
+				"content": "StackSavings"
+			},
+			"collection": {
+				"showInputField": true,
+				"content": "Bebés"
+			},
+			"code": {
+				"showInputField": true,
+				"content": "ID 17232451"
+			},
+			"size": {
+				"item1": {
+					"showInputField": true,
+					"content": "3"
+				},
+				"item2": {
+					"showInputField": true,
+					"content": "4"
+				},
+				"item3": {
+					"showInputField": true,
+					"content": "5"
+				}
+			},
+			"availability": {
+				"showInputField": true,
+				"content": "11587 pares disponibles"
+			},
+			"overviewDescription": {
+				"showInputField": true,
+				"content": "Hermosos zapatos para bebés cómodos y seguros, fabricados con cuero genuino y suela antiresbalante. Tenemos gran variedad de modelos y colores para niños y niñas."
+			},
+			"price": {
+				"showInputField": true,
+				"content": "$10.00"
+			},
+			"total": {
+				"showInputField": true,
+				"content": "$10"
+			},
+			"btn1": {
+				"showInputField": true,
+				"content": "Agregar"
+			}
+		},
+		"detail": {
+			"nav": {
+				"navItem1": {
+					"showInputField": true,
+					"content": "Descripción"
+				},
+				"navItem2": {
+					"showInputField": true,
+					"content": "Adicional"
+				},
+				"navItem3": {
+					"showInputField": true,
+					"content": "Calificaciones"
+				}
+			},
+			"description": {
+				"title2": {
+					"showInputField": true,
+					"content": "Detalles del producto"
+				},
+				"detailContent": {
+					"showInputField": true,
+					"content": "Zapatos para bebés, fabricados con cuero genuino y suela antiresbalante. Contamos con una gran variedad de modelos y colores para niños y niñas. ",
+					"type": "markdown"
+				}
+			},
+			"additional": {
+				"sizes": {
+					"title3": {
+						"showInputField": true,
+						"content": "Tamaños"
+					},
+					"additionalContent": {
+						"showInputField": true,
+						"content": "Acompaña sus primeros pasos con seguridad y buen gusto."
+					}
+				},
+				"colors": {
+					"title4": {
+						"showInputField": true,
+						"content": "Colores"
+					},
+					"content": {
+						"showInputField": true,
+						"content": ""
+					}
+				},
+				"other": {
+					"title5": {
+						"showInputField": true,
+						"content": "Otros"
+					},
+					"otherContent": {
+						"showInputField": true,
+						"content": "Puedes colocar un número de contacto para que sea usado en caso de que se pierda tu mascota."
+					}
+				}
+			},
+			"review": {
+				"title6": {
+					"showInputField": true,
+					"content": "Calificaciones de los clientes"
+				},
+				"clients": {
+					"client1": {
+						"name1": {
+							"showInputField": true,
+							"content": "Laura Hernandez"
+						},
+						"date1": {
+							"showInputField": true,
+							"content": "26/05/2018"
+						},
+						"opinion1": {
+							"showInputField": true,
+							"content": "Son hermosos y sobre todo muy seguros."
+						}
+					},
+					"client2": {
+						"name2": {
+							"showInputField": true,
+							"content": "Maritza Pérez"
+						},
+						"date2": {
+							"showInputField": true,
+							"content": "05/06/2018"
+						},
+						"opinion2": {
+							"showInputField": true,
+							"content": "Me encantaron, son muy cómodos y se adaptan perfectamente a sus pies."
+						}
+					}
+				},
+				"form": {
+					"name3": {
+						"showInputField": true,
+						"content": "Primer nombre:"
+					},
+					"company": {
+						"showInputField": true,
+						"content": "Compañía:"
+					},
+					"rate": {
+						"showInputField": true,
+						"content": "Tu calificación:"
+					},
+					"btn2": {
+						"showInputField": true,
+						"content": "Agregar calificación"
+					}
+				}
+			}
+		}
+	},
+	"footer": {
+		"groupDisplayName": "Footer",
+		"column1": {
+			"block1": {
+				"title1": {
+					"showInputField": true,
+					"content": "Zapatos para Bebés"
+				},
+				"footerParagraph": {
+					"showInputField": true,
+					"content": "Somos una empresa de América Latina que ofrece servicios y productos que se adaptan a la necesidad del cliente.",
+					"type": "markdown"
+				}
+			}
+		},
+		"column2": {
+			"block1": {
+				"title2": {
+					"showInputField": true,
+					"content": "Detalles del producto"
+				},
+				"links": {
+					"link1": {
+						"text1": {
+							"showInputField": true,
+							"content": "Sobre nosotros"
+						},
+						"url1": {
+							"showInputField": true,
+							"content": ""
+						}
+					},
+					"link2": {
+						"text2": {
+							"showInputField": true,
+							"content": "Contáctanos"
+						},
+						"url2": {
+							"showInputField": true,
+							"content": ""
+						}
+					},
+					"link3": {
+						"text3": {
+							"showInputField": true,
+							"content": "Información de envío"
+						},
+						"url3": {
+							"showInputField": true,
+							"content": ""
+						}
+					},
+					"link4": {
+						"text4": {
+							"showInputField": true,
+							"content": "Política de privacidad"
+						},
+						"url4": {
+							"showInputField": true,
+							"content": ""
+						}
+					},
+					"link5": {
+						"text5": {
+							"showInputField": true,
+							"content": "Términos y condiciones"
+						},
+						"url5": {
+							"showInputField": true,
+							"content": ""
+						}
+					},
+					"link6": {
+						"text6": {
+							"showInputField": true,
+							"content": "Mapa del sitio"
+						},
+						"url6": {
+							"showInputField": true,
+							"content": ""
+						}
+					},
+					"link7": {
+						"text7": {
+							"showInputField": true,
+							"content": "Regresar"
+						},
+						"url7": {
+							"showInputField": true,
+							"content": ""
+						}
+					}
+				}
+			}
+		},
+		"copyright": {
+			"text": {
+				"showInputField": true,
+				"content": "Copyright © 2018  StackSavings"
+			}
+		}
+	}
+}
