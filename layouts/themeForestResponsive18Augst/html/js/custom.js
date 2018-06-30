@@ -1,7 +1,7 @@
 ( function($) {
 
 $(document).ready(function() {
-
+ 
 	$('#ri-grid').gridrotator( {
 		animSpeed	: 1000,
 		interval	: 600,
