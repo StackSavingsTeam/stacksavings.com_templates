@@ -1,0 +1,1122 @@
+{
+	"header": {
+		"groupDisplayName": "Header",
+		"topMenu": {
+			"menuItem1": {
+				"showInputField": true,
+				"content": "Homes"
+			},
+			"menuItem1Url": {
+				"showInputField": true,
+				"content": "index.html"
+			},
+			"menuItem1Submenu1": {
+				"showInputField": true,
+				"content": "Index alt 1"
+			},
+			"menuItem1Submenu1Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/index.html"
+			},
+			"menuItem1Submenu2": {
+				"showInputField": true,
+				"content": "Index alt 2"
+			},
+			"menuItem1Submenu2Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/index1.html"
+			},
+			"menuItem1Submenu3": {
+				"showInputField": true,
+				"content": "Index alt 3"
+			},
+			"menuItem1Submenu3Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/index2.html"
+			},
+			"menuItem1Submenu4": {
+				"showInputField": true,
+				"content": "Index alt 4"
+			},
+			"menuItem1Submenu4Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/index3.html"
+			},
+			"menuItem1Submenu5": {
+				"showInputField": true,
+				"content": "Index alt 5"
+			},
+			"menuItem1Submenu5Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/index4.html"
+			},
+			"menuItem2": {
+				"showInputField": true,
+				"content": "About"
+			},
+			"menuItem2Url": {
+				"showInputField": true,
+				"content": "about.html"
+			},
+			"menuItem3": {
+				"showInputField": true,
+				"content": "Blog"
+			},
+			"menuItem3Url": {
+				"showInputField": true,
+				"content": "blog.html"
+			},
+		  "menuItem4": {
+				"showInputField": true,
+				"content": "Pages"
+			},
+			"menuItem4Submenu1": {
+				"showInputField": true,
+				"content": "Services"
+			},
+			"menuItem4Submenu1Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/services.html"
+			},
+			"menuItem4Submenu2": {
+				"showInputField": true,
+				"content": "Our team"
+			},
+			"menuItem4Submenu2Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/team.html"
+			},
+			"menuItem4Submenu3": {
+				"showInputField": true,
+				"content": "Help"
+			},
+			"menuItem4Submenu3Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/help.html"
+			},
+			"menuItem4Submenu4": {
+				"showInputField": true,
+				"content": "Site map"
+			},
+			"menuItem4Submenu4Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/site-map.html"
+			},
+			"menuItem4Submenu5": {
+				"showInputField": true,
+				"content": "Item detail"
+			},
+			"menuItem4Submenu5Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/detail.html"
+			},
+			"menuItem4Submenu6": {
+				"showInputField": true,
+				"content": "Single post"
+			},
+			"menuItem4Submenu6Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/singlepost.html"
+			},
+			"menuItem4Submenu7": {
+				"showInputField": true,
+				"content": "Register"
+			},
+			"menuItem4Submenu7Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/register.html"
+			},
+			"menuItem4Submenu8": {
+				"showInputField": true,
+				"content": "Home member login"
+			},
+			"menuItem4Submenu8Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/login-home.html"
+			},
+			"menuItem4Submenu9": {
+				"showInputField": true,
+				"content": "Member dasboard"
+			},
+			"menuItem4Submenu9Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/dashboard.html"
+			},
+			"menuItem4Submenu10": {
+				"showInputField": true,
+				"content": "Edit profile"
+			},
+			"menuItem4Submenu10Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/edit-profile.html"
+			},
+			"menuItem4Submenu11": {
+				"showInputField": true,
+				"content": "Change password"
+			},
+			"menuItem4Submenu11Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/change-password.html"
+			},
+			"menuItem4Submenu12": {
+				"showInputField": true,
+				"content": "Member portfolio"
+			},
+			"menuItem4Submenu12Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/member-porfolio.html"
+			},
+			"menuItem4Submenu13": {
+				"showInputField": true,
+				"content": "Member collections"
+			},
+			"menuItem4Submenu13Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/member-collection.html"
+			},
+			"menuItem4Submenu14": {
+				"showInputField": true,
+				"content": "Upload item"
+			},
+			"menuItem4Submenu14Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/upload.html"
+			},
+			"menuItem4Submenu15": {
+				"showInputField": true,
+				"content": "Pricing table"
+			},
+			"menuItem4Submenu15Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/pricingtable.html"
+			},
+			"menuItem4Submenu16": {
+				"showInputField": true,
+				"content": "Error 404"
+			},
+			"menuItem4Submenu16Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/404.html"
+			},
+      "menuItem5": {
+				"showInputField": true,
+				"content": "Components"
+			},
+			"menuItem5Submenu1": {
+				"showInputField": true,
+				"content": "Default grid"
+			},
+      "menuItem5Submenu1Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/grid.html"
+			},
+      "menuItem5Submenu2": {
+				"showInputField": true,
+				"content": "Fluid grid"
+			},
+      "menuItem5Submenu2Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/grid-fluid.html"
+			},
+      "menuItem5Submenu3": {
+				"showInputField": true,
+				"content": "Typography"
+			},
+      "menuItem5Submenu3Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/typography.html"
+			},
+      "menuItem5Submenu4": {
+				"showInputField": true,
+				"content": "Buttons"
+			},
+      "menuItem5Submenu4Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/buttons.html"
+			},
+      "menuItem5Submenu5": {
+				"showInputField": true,
+				"content": "Images"
+			},
+      "menuItem5Submenu5Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/images.html"
+			},
+      "menuItem5Submenu6": {
+				"showInputField": true,
+				"content": "Tabs"
+			},
+      "menuItem5Submenu6Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/tabs.html"
+			},
+      "menuItem5Submenu7": {
+				"showInputField": true,
+				"content": "Collapse"
+			},
+      "menuItem5Submenu7Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/collapse.html"
+			},
+      "menuItem5Submenu8": {
+				"showInputField": true,
+				"content": "Alert"
+			},
+      "menuItem5Submenu8Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/alert.html"
+			},
+      "menuItem5Submenu9": {
+				"showInputField": true,
+				"content": "Form"
+			},
+      "menuItem5Submenu9Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/form.html"
+			},
+      "menuItem5Submenu10": {
+				"showInputField": true,
+				"content": "Icons"
+			},
+      "menuItem5Submenu10Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/icons.html"
+			},
+      "menuItem6": {
+				"showInputField": true,
+				"content": "Browse file"
+			},
+			"menuItem6Url": {
+				"showInputField": true,
+				"content": "#browse-menu"
+			},
+      "menuItem7": {
+				"showInputField": true,
+				"content": "Contact"
+			},
+			"menuItem7Url": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/contact.html"
+			},
+      "facebookUrl": {
+				"showInputField": true,
+				"content": "#"
+			},
+      "twitterUrl": {
+				"showInputField": true,
+				"content": "#"
+			},
+      "linkedinUrl": {
+				"showInputField": true,
+				"content": "#"
+			},
+      "googlePlusUrl": {
+				"showInputField": true,
+				"content": "#"
+			},
+      "pinterestUrl": {
+				"showInputField": true,
+				"content": "#"
+			},
+			"browse-menu": {
+				"head-menu1": {
+					"showInputField": true,
+					"content": "Web design"
+				},
+				"head-menu1Item1": {
+					"showInputField": true,
+					"content": "HTML/CSS"
+				},
+				"head-menu1Item1Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu1Item2": {
+					"showInputField": true,
+					"content": "Web font"
+				},
+				"head-menu1Item2Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu1Item3": {
+					"showInputField": true,
+					"content": "Icon design"
+				},
+				"head-menu1Item3Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu1Item4": {
+					"showInputField": true,
+					"content": "Web interface"
+				},
+				"head-menu1Item4Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu2": {
+					"showInputField": true,
+					"content": "Art design"
+				},
+				"head-menu2Item1": {
+					"showInputField": true,
+					"content": "Digital painting"
+				},
+				"head-menu2Item1Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu2Item2": {
+					"showInputField": true,
+					"content": "Logo design"
+				},
+				"head-menu2Item2Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu2Item3": {
+					"showInputField": true,
+					"content": "Hand Drawn Illustration"
+				},
+				"head-menu2Item3Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu2Item4": {
+					"showInputField": true,
+					"content": "Photoshop"
+				},
+				"head-menu2Item4Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu2Item5": {
+					"showInputField": true,
+					"content": "Vector Graphics"
+				},
+				"head-menu2Item5Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu2Item6": {
+					"showInputField": true,
+					"content": "3D Graphics"
+				},
+				"head-menu2Item6Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu2Item7": {
+					"showInputField": true,
+					"content": "Vector"
+				},
+				"head-menu2Item7Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu2Item8": {
+					"showInputField": true,
+					"content": "Typography"
+				},
+				"head-menu2Item8Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu3": {
+					"showInputField": true,
+					"content": "Print design"
+				},
+				"head-menu3Item1": {
+					"showInputField": true,
+					"content": "Book covers"
+				},
+				"head-menu3Item1Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu3Item2": {
+					"showInputField": true,
+					"content": "Business cards"
+				},
+				"head-menu3Item2Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu3Item3": {
+					"showInputField": true,
+					"content": "Tshirt design"
+				},
+				"head-menu3Item3Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu3Item4": {
+					"showInputField": true,
+					"content": "Posters"
+				},
+				"head-menu3Item4Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu4": {
+					"showInputField": true,
+					"content": "UI elements"
+				},
+				"head-menu4Item1": {
+					"showInputField": true,
+					"content": "UI/UX responsive"
+				},
+				"head-menu4Item1Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu4Item2": {
+					"showInputField": true,
+					"content": "Audio players"
+				},
+				"head-menu4Item2Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu4Item3": {
+					"showInputField": true,
+					"content": "Form and button"
+				},
+				"head-menu4Item3Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu4Item4": {
+					"showInputField": true,
+					"content": "Hand Drawn Illustration"
+				},
+				"head-menu4Item4Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu4Item5": {
+					"showInputField": true,
+					"content": "Navigation"
+				},
+				"head-menu4Item5Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu4Item6": {
+					"showInputField": true,
+					"content": "Image frame"
+				},
+				"head-menu4Item6Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu4Item7": {
+					"showInputField": true,
+					"content": "Search"
+				},
+				"head-menu4Item7Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu4Item8": {
+					"showInputField": true,
+					"content": "Admin panel"
+				},
+				"head-menu4Item8Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu5": {
+					"showInputField": true,
+					"content": "Wallpapers"
+				},
+				"head-menu5Item1": {
+					"showInputField": true,
+					"content": "Desktop wallpapers"
+				},
+				"head-menu5Item1Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu5Item2": {
+					"showInputField": true,
+					"content": "iPad wallpapers"
+				},
+				"head-menu5Item2Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu5Item3": {
+					"showInputField": true,
+					"content": "iPhone wallpapers"
+				},
+				"head-menu5Item3Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu6": {
+					"showInputField": true,
+					"content": "Photography"
+				},
+				"head-menu6Item1": {
+					"showInputField": true,
+					"content": "Business"
+				},
+				"head-menu6Item1Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu6Item2": {
+					"showInputField": true,
+					"content": "Nature"
+				},
+				"head-menu6Item2Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu6Item3": {
+					"showInputField": true,
+					"content": "Building"
+				},
+				"head-menu6Item3Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu6Item4": {
+					"showInputField": true,
+					"content": "Objects"
+				},
+				"head-menu6Item4Url": {
+					"showInputField": true,
+					"content": "#"
+				},
+				"head-menu6Item5": {
+					"showInputField": true,
+					"content": "Beauty"
+				},
+				"head-menu6Item5Url": {
+					"showInputField": true,
+					"content": "#"
+				}
+			},
+			"logo": {
+				"logo-imagen":{
+									"showInputField": true,
+									"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/logo.png"
+								},
+				"logo-url": {
+					"showInputField": true,
+					"content": "index.html"
+				}
+			},
+			"search-form": {
+				"search-form-placeholder": {
+					"showInputField": true,
+					"content": "Start searching..."
+				}
+			},
+			"loginBtn": {
+				"showInputField": true,
+				"content": "Login"
+			},
+			"loginUrl": {
+				"showInputField": true,
+				"content": "#"
+			},
+			"registerBtn": {
+				"showInputField": true,
+				"content": "Register free"
+			},
+			"registerUrl": {
+				"showInputField": true,
+				"content": "#"
+			},
+			"modalLogin": {
+				"modalTitle": {
+					"showInputField": true,
+					"content": "Login member"
+				},
+				"usernameInput": {
+					"showInputField": true,
+					"content": "Username"
+				},
+				"usernameInputPlaceholder": {
+					"showInputField": true,
+					"content": "Username"
+				},
+				"passwordInput": {
+					"showInputField": true,
+					"content": "Password"
+				},
+				"passwordInputPlaceholder": {
+					"showInputField": true,
+					"content": "Password"
+				},
+				"rememberMe": {
+					"showInputField": true,
+					"content": "Remember me"
+				},
+				"closeModal":{
+					"showInputField": true,
+					"content": "Close"
+				},
+				"modalLoginBtn":{
+					"showInputField": true,
+					"content": "Login now"
+				}
+			}
+		}
+	},
+	"content": {
+		"groupDisplayName": "Content",
+	  "gridTitle1": {
+			"showInputField": true,
+			"content": "Be creative"
+		},
+		"gridText": {
+			"showInputField": true,
+			"content": "Oblique signiferumque vel cu numquam"
+		},
+		"gridBtn": {
+			"showInputField": true,
+			"content": "Signup for free"
+		},
+		"gridBtnUrl": {
+			"showInputField": true,
+			"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/register.html"
+		},
+		"gridImages": {
+			"gridImages1":{
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/portfolio/img1.jpg"
+			},
+			"gridImages1Url": {
+				"showInputField": true,
+				"content": "#"
+			},
+			"gridImages2":{
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/portfolio/img2.jpg"
+			},
+			"gridImages2Url": {
+				"showInputField": true,
+				"content": "#"
+			},
+			"gridImages3":{
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/portfolio/img3.jpg"
+			},
+			"gridImages3Url": {
+				"showInputField": true,
+				"content": "#"
+			},
+			"gridImages4":{
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/portfolio/img4.jpg"
+			},
+			"gridImages4Url": {
+				"showInputField": true,
+				"content": "#"
+			},
+			"gridImages5":{
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/portfolio/img5.jpg"
+			},
+			"gridImages5Url": {
+				"showInputField": true,
+				"content": "#"
+			},
+			"gridImages6":{
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/portfolio/img6.jpg"
+			},
+			"gridImages6Url": {
+				"showInputField": true,
+				"content": "#"
+			},
+			"gridImages7":{
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/portfolio/img7.jpg"
+			},
+			"gridImages7Url": {
+				"showInputField": true,
+				"content": "#"
+			},
+			"gridImages8":{
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/portfolio/img8.jpg"
+			},
+			"gridImages8Url": {
+				"showInputField": true,
+				"content": "#"
+			},
+			"gridImages9":{
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/portfolio/img9.jpg"
+			},
+			"gridImages9Url": {
+				"showInputField": true,
+				"content": "#"
+			}
+		},
+		"intro": {
+			"introTitle": {
+				"showInputField": true,
+				"content": "Three steps to join with us"
+			},
+			"introItem1":{
+				"showInputField": true,
+				"content": "Register with your email"
+			},
+			"introText1":{
+				"showInputField": true,
+				"content": "Duis scaevola mea id, alii adipiscing ei mel. An usu veri noster graecis quo altera quodsi."
+			},
+			"introImages1":{
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/icons/icon1.png"
+			},
+			"introItem2":{
+				"showInputField": true,
+				"content": "Edit your profile"
+			},
+			"introText2":{
+				"showInputField": true,
+				"content": "Duis scaevola mea id, alii adipiscing ei mel. An usu veri noster graecis quo altera quodsi."
+			},
+			"introImages2":{
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/icons/icon2.png"
+			},
+			"introItem3":{
+				"showInputField": true,
+				"content": "Upload your item"
+			},
+			"introText3":{
+				"showInputField": true,
+				"content": "Duis scaevola mea id, alii adipiscing ei mel. An usu veri noster graecis quo altera quodsi."
+			},
+			"introImages3":{
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/icons/icon3.png"
+			},
+			"introItem4":{
+				"showInputField": true,
+				"content": "Displayed your item"
+			},
+			"introText4":{
+				"showInputField": true,
+				"content": "Duis scaevola mea id, alii adipiscing ei mel. An usu veri noster graecis quo altera quodsi."
+			},
+			"introImages4":{
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/icons/icon4.png"
+			}
+		},
+		"sorted": {
+			"sortedTitle": {
+				"showInputField": true,
+				"content": "Sort item by"
+			},
+			"sorted1": {
+				"showInputField": true,
+				"content": "All items"
+			},
+			"sorted2": {
+				"showInputField": true,
+				"content": "Latest items"
+			},
+			"sorted3": {
+				"showInputField": true,
+				"content": "Popular items"
+			},
+			"sorted4": {
+				"showInputField": true,
+				"content": "Premium items"
+			},
+			"sorted5": {
+				"showInputField": true,
+				"content": "Free items"
+			},
+			"sortedCounter": {
+				"showInputField": true,
+				"content": "1 of 264 File"
+			}
+		},
+		"portafolio": {
+			"portfolioItem1": {
+				"showInputField": true,
+				"content": "Usu veri noster graecis quo"
+			},
+			"portfolioItemImg1": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/portfolio/img1.jpg"
+			},
+			"portfolioItemBigImg1": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/portfolio/big.jpg"
+			},
+			"portfolioItem1": {
+				"showInputField": true,
+				"content": "Usu veri noster graecis quo"
+			},
+			"portfolioItemImg1": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/portfolio/img1.jpg"
+			},
+			"portfolioItemUrl1": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/detail.html"
+			},
+			"portfolioItemBigImg1": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/portfolio/big.jpg"
+			},
+			"portfolioItem2": {
+				"showInputField": true,
+				"content": "Usu veri noster graecis quo"
+			},
+			"portfolioItemImg2": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/portfolio/img2.jpg"
+			},
+			"portfolioItemUrl2": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/detail.html"
+			},
+			"portfolioItemBigImg2": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/portfolio/big.jpg"
+			},
+			"portfolioItem3": {
+				"showInputField": true,
+				"content": "Usu veri noster graecis quo"
+			},
+			"portfolioItemImg3": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/portfolio/img3.jpg"
+			},
+			"portfolioItemUrl3": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/detail.html"
+			},
+			"portfolioItemBigImg3": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/portfolio/big.jpg"
+			},
+			"portfolioItem4": {
+				"showInputField": true,
+				"content": "Usu veri noster graecis quo"
+			},
+			"portfolioItemImg4": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/portfolio/img4.jpg"
+			},
+			"portfolioItemUrl4": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/detail.html"
+			},
+			"portfolioItemBigImg4": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/portfolio/big.jpg"
+			},
+			"portfolioItem5": {
+				"showInputField": true,
+				"content": "Usu veri noster graecis quo"
+			},
+			"portfolioItemImg5": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/portfolio/img5.jpg"
+			},
+			"portfolioItemUrl5": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/detail.html"
+			},
+			"portfolioItemBigImg5": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/portfolio/big.jpg"
+			},
+			"portfolioItem6": {
+				"showInputField": true,
+				"content": "Usu veri noster graecis quo"
+			},
+			"portfolioItemImg6": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/portfolio/img6.jpg"
+			},
+			"portfolioItemUrl6": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/detail.html"
+			},
+			"portfolioItemBigImg6": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/portfolio/big.jpg"
+			},
+			"portfolioItem7": {
+				"showInputField": true,
+				"content": "Usu veri noster graecis quo"
+			},
+			"portfolioItemImg7": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/portfolio/img7.jpg"
+			},
+			"portfolioItemUrl7": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/detail.html"
+			},
+			"portfolioItemBigImg7": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/portfolio/big.jpg"
+			},
+			"portfolioItem8": {
+				"showInputField": true,
+				"content": "Usu veri noster graecis quo"
+			},
+			"portfolioItemImg8": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/portfolio/img8.jpg"
+			},
+			"portfolioItemUrl8": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/detail.html"
+			},
+			"portfolioItemBigImg8": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/portfolio/big.jpg"
+			},
+			"portfolioItem9": {
+				"showInputField": true,
+				"content": "Usu veri noster graecis quo"
+			},
+			"portfolioItemImg9": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/portfolio/img9.jpg"
+			},
+			"portfolioItemUrl9": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/detail.html"
+			},
+			"portfolioItemBigImg9": {
+				"showInputField": true,
+				"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/img/portfolio/big.jpg"
+			},
+			"portafolioOlder": {
+				"showInputField": true,
+				"content": "Older"
+			},
+			"portafolioNewer": {
+				"showInputField": true,
+				"content": "Newer"
+			}
+		},
+		"subscribe": {
+			"subscribeTitle": {
+				"showInputField": true,
+				"content": "Please subscribe to get news update"
+			},
+			"subscribeText": {
+				"showInputField": true,
+				"content": "Mazim ornatus dolorum cu ius, eu reque albucius gloriatur duo, id qui reque ullum. Soluta delicata cum ad, ius et honestatis omittantur. Erant probatus mea ne. Pri error impetus instructior cu, congue tantas eum an. Magna aeque intellegebat ei qui, nec te perfecto adipiscing. Per natum option et, cum ut semper volutpat.",
+				"type": "markdown"
+			},
+			"subscribeInputPlaceholder": {
+				"showInputField": true,
+				"content": "Enter your email address"
+			},
+			"subscribeBtn": {
+				"showInputField": true,
+				"content": "GET NOTIFIED"
+			}
+		}
+	},
+	"footer": {
+		"groupDisplayName": "Footer",
+	  "footerFacebook": {
+			"showInputField": true,
+			"content": "#"
+		},
+		"footerTwitter": {
+			"showInputField": true,
+			"content": "#"
+		},
+		"footerLinkedin": {
+			"showInputField": true,
+			"content": "#"
+		},
+		"footerGooglePlus": {
+			"showInputField": true,
+			"content": "#"
+		},
+		"footerPinterest": {
+			"showInputField": true,
+			"content": "#"
+		},
+		"footerText": {
+			"showInputField": true,
+			"content": "Vim in idque patrioque, eum et omnes maiorum torquatos. Sale everti sapientem nam ad, vix id congue admodum sensibus, et veri fugit aeque nec. Legere recusabo est ut. Posse ullum eirmod sed in, et oratio voluptua instructior sit. Ei percipit iracundia vel. Corpora pertinax aliquando et sit, adipiscing neglegentur cu mei.",
+			"type": "markdown"
+		},
+		"footerLink1": {
+			"showInputField": true,
+			"content": "Home"
+		},
+		"footerLink1Url": {
+			"showInputField": true,
+			"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/index.html"
+		},
+		"footerLink2": {
+			"showInputField": true,
+			"content": "About"
+		},
+		"footerLink2Url": {
+			"showInputField": true,
+			"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/about.html"
+		},
+		"footerLink3": {
+			"showInputField": true,
+			"content": "Service"
+		},
+		"footerLink3Url": {
+			"showInputField": true,
+			"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/services.html"
+		},
+		"footerLink4": {
+			"showInputField": true,
+			"content": "Blog"
+		},
+		"footerLink4Url": {
+			"showInputField": true,
+			"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/blog.html"
+		},
+		"footerLink5": {
+			"showInputField": true,
+			"content": "Help"
+		},
+		"footerLink5Url": {
+			"showInputField": true,
+			"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/help.html"
+		},
+		"footerLink6": {
+			"showInputField": true,
+			"content": "Site map"
+		},
+		"footerLink6Url": {
+			"showInputField": true,
+			"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/site-map.html"
+		},
+		"footerLink7": {
+			"showInputField": true,
+			"content": "Contact"
+		},
+		"footerLink7Url": {
+			"showInputField": true,
+			"content": "https://layouts.stacksavings.com/themeForestResponsive18Augst/html/contact.html"
+		},
+		"subfooter": {
+			"showInputField": true,
+			"content": "<p>2013 &copy; Copyright <a href='www.99webpage.com'>nce18cex</a>. All rights Reserved.</p>",
+			"type": "markdown"
+		}
+	}
+}
