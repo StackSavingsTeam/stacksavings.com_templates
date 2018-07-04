@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>${titleHeader1}</title>
+    <meta name="description" content="StackSavings">
+    <meta name="author" content="StackSavings">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="https://layouts.stacksavings.com/necklace-moon-engagement/css/theme-style.css">
+    <link rel="stylesheet" href="https://layouts.stacksavings.com/necklace-moon-engagement/css/ie.style.css">
+    <script src="https://layouts.stacksavings.com/necklace-moon-engagement/js/vendor/modernizr.js"></script>
+    <script src="https://layouts.stacksavings.com/necklace-moon-engagement/js/vendor/less.js"></script>
+  </head>
+  <body>
+  <header id="header" class="light">
+    <div class="header-bg">
+      <div class="header-main" id="header-main-fixed">
+        <div class="header-main-block1 with-menu">
+          <div class="container">
+            <div id="container-fixed">
+              <div class="row">
+                <div class="col-md-12">
+                  <nav class="navbar yamm  navbar-main" role="navigation">
+                    <div class="navbar-header">
+                      <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                      <a href="index.html" class="navbar-brand">${header.logo}</a>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="top-header-bg"></div>
+  <section>
+    <div class="second-page-header dark">
+      <div class="container">
+        <h2>${header.titleHeader2}</h2>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="block2">
+      <div class="container">
+        <div class="block-product-detail">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+              <div class="product-image">
+                <img id="product-zoom"  src='${product.gallery.large.largeImg1}'>
+                <div id="gal1">
+                  <a href="javascript:;" data-image="${product.gallery.large.largeImg1}">
+                    <img src="${product.gallery.small.smallImg1}" alt="">
+                  </a>
+                  <a href="javascript:;" data-image="${product.gallery.large.largeImg2}">
+                    <img src="${product.gallery.small.smallImg2}" alt="">
+                  </a>
+                  <a href="javascript:;"  data-image="${product.gallery.large.largeImg3}">
+                    <img src="${product.gallery.small.smallImg3}" alt="" >
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+              <div class="product-detail-section">
+                <h3>${product.overview.title1}</h3>
+                <div class="product-rating">
+                  <div class="stars">
+                    <span class="star"></span><span class="star active"></span><span class="star active"></span><span class="star active"></span><span class="star active"></span>
+                  </div>
+                  <a href="" class="review">${product.overview.review}</a>
+                </div>
+                <div class="product-information">
+                  <div class="clearfix">
+                    <label class="pull-left">Proveedores:</label> <a href="#">${product.overview.brand}</a><br>
+                  </div>
+                  <div class="clearfix">
+                    <label class="pull-left">Público objetivo:</label> ${product.overview.collection}
+                  </div>
+                  <div class="clearfix">
+                    <label class="pull-left">Código del producto:</label> ${product.overview.code}
+                  </div>
+                  <div class="clearfix">
+                    <label class="pull-left">Disponibilidad:</label>
+                    <p>${product.overview.availability}</p>
+                  </div>
+                  <div class="clearfix">
+                    <label class="pull-left">Descripción:</label>
+                    <p class="description">${product.overview.overviewDescription}</p>
+                  </div>
+                  <div class="clearfix">
+                    <label class="pull-left">Precio:</label>
+                    <p class="product-price">${product.overview.price}</p>
+                  </div>
+                  <div class="clearfix">
+                    <label class="pull-left">Cantidad:</label>
+                    <input type="number" class="form-control">
+                  </div>
+                  <div class="clearfix">
+                    <label class="pull-left">Total:</label>
+                    <p class="product-price">${product.overview.total}</p>
+                  </div>
+
+                  <div class="shopping-cart-buttons">
+                    <a onclick="fbq('track', 'InitiateCheckout')" href="" class="shoping">
+                       <i class="fa fa-shopping-cart snipcart-add-item"
+                       data-item-name="Medalla"
+                       data-item-price="5.00"
+                       data-item-id="1"
+                       data-item-url="https://snipcart.com/medalla">
+                        ${product.overview.btn1}</i>
+                    </a>
+                    <a href="#" title="Wishlist"><i class="fa fa-heart-o"></i></a>
+                    <a href="#" title="Compare"><i class="fa fa-random"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box-border block-form">
+          <ul class="nav nav-pills  nav-justified">
+            <li class="active"><a href="#description" data-toggle="tab">${product.detail.nav.navItem1}</a></li>
+            <li><a href="#additional" data-toggle="tab" class="disabled">${product.detail.nav.navItem2}</a></li>
+            <li><a href="#review" data-toggle="tab">${product.detail.nav.navItem3}</a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane active" id="description">
+              <br>
+              <h3>${product.detail.description.title2}</h3>
+              <hr>
+              <p>${product.detail.description.detailContent}</p>
+            </div>
+            <div class="tab-pane" id="additional">
+              <br>
+              <div class="row">
+                <div class="col-md-4">
+                  <h3>${product.detail.additional.sizes.title3}</h3>
+                  <hr>
+                  <p>${product.detail.additional.sizes.additionalContent}</p>
+                </div>
+                <div class="col-md-4 block-color">
+                  <h3>${product.detail.additional.colors.title4}</h3>
+                  <hr>
+                  <ul class="colors clearfix list-unstyled">
+                    <li><a href="" data-rel="003d71"></a></li>
+                    <li><a href="" data-rel="c42c39"></a></li>
+                    <li><a href="" data-rel="f4bc08"></a></li>
+                    <li><a href="" data-rel="02882c"></a></li>
+                    <li><a href="" data-rel="000000"></a></li>
+                    <li><a href="" data-rel="caccce"></a></li>
+                    <li><a href="" data-rel="ffffff"></a></li>
+                    <li><a href="" data-rel="f9e7b6"></a></li>
+                    <li><a href="" data-rel="ef8a07"></a></li>
+                    <li><a href="" data-rel="5a433f"></a></li>
+                    <li><a href="" data-rel="ff9bb5"></a></li>
+                    <li><a href="" data-rel="8c56a9"></a></li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <h3>${product.detail.additional.other.title5}</h3>
+                  <hr>
+                  <p>${product.detail.additional.other.otherContent}</p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="review">
+              <br>
+              <div class="row">
+                <div class="col-md-12">
+                  <h3>${product.detail.review.title6}</h3>
+                  <hr>
+                  <div class="review-header">
+                    <h5>${product.detail.review.clients.client1.name1}</h5>
+                    <div class="product-rating">
+                      <div class="stars">
+                        <span class="star active"></span><span class="star active"></span><span class="star active"></span><span class="star active"></span><span class="star active"></span>
+                      </div>
+                    </div>
+                    <small class="text-muted">${product.detail.review.clients.client1.date1}</small>
+                  </div>
+                  <div class="review-body">
+                    <p>${product.detail.review.clients.client1.opinion1}</p>
+                  </div>
+                  <hr>
+                  <div class="review-header">
+                    <h5>${product.detail.review.clients.client2.name2}</h5>
+                    <div class="product-rating">
+                      <div class="stars">
+                        <span class="star"></span><span class="star active"></span><span class="star active"></span><span class="star active"></span><span class="star active"></span>
+                      </div>
+                    </div>
+                    <small class="text-muted">${product.detail.review.clients.client2.date2}</small>
+                  </div>
+                  <div class="review-body">
+                    <p>${product.detail.review.clients.client2.opinion2}</p>
+                  </div>
+                  <hr>
+                </div>
+              </div>
+              <form role="form" method="post" action="#">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="inputFirstName" class="control-label">${product.detail.review.form.name3}<span class="text-error">*</span></label>
+                      <div>
+                        <input type="text" class="form-control" id="inputFirstName">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="inputCompany" class="control-label">${product.detail.review.form.company}</label>
+                      <div>
+                        <input type="text" class="form-control" id="inputCompany">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <textarea class="form-control">    </textarea>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label  class="control-label">${product.detail.review.form.rate}</label>
+                      <div class="product-rating">
+                        <div class="stars">
+                          <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <input type="submit"  class="btn-default" value="${product.detail.review.form.btn2}">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="footer-block">
+    <div class="footer-information">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="inner-block">
+              <div class="header-footer">
+                <h3>${footer.column1.block1.title1}</h3>
+              </div>
+              <p>${footer.column1.block1.footerParagraph}</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="inner-block">
+              <div class="header-footer">
+                <h3>${footer.column2.block1.title2}</h3>
+              </div>
+              <ul class="footer-categories list-unstyled">
+                <li><a href="${footer.column2.block1.links.link1.url1}">${footer.column2.block1.links.link1.text1}</a></li>
+                <li><a href="${footer.column2.block1.links.link2.url2}">${footer.column2.block1.links.link2.text2}</a></li>
+                <li><a href="${footer.column2.block1.links.link3.url3}">${footer.column2.block1.links.link3.text3}</a></li>
+                <li><a href="${footer.column2.block1.links.link4.url4}">${footer.column2.block1.links.link4.text4}</a></li>
+                <li><a href="${footer.column2.block1.links.link5.url5}">${footer.column2.block1.links.link5.text5}</a></li>
+                <li><a href="${footer.column2.block1.links.link6.url6}">${footer.column2.block1.links.link6.text6}</a></li>
+                <li><a href="${footer.column2.block1.links.link7.url7}">${footer.column2.block1.links.link7.text7}</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6"></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copy">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p>${footer.copyright.text}</p>
+          </div>
+          <div class="col-md-6"></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="NTMwNmNkMGEtMTZiNS00NzcxLWEwZmMtMDUzMDc3NWI0MzA1NjM2NjU2NDU1NzE1NjUyMDAz"></script>
+<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
+
+  <script src="https://layouts.stacksavings.com/necklace-moon-engagement/js/vendor/jquery.js"></script>
+  <script src="https://layouts.stacksavings.com/necklace-moon-engagement/js/vendor/jquery.easing.1.3.js"></script>
+  <script src="https://layouts.stacksavings.com/necklace-moon-engagement/js/vendor/bootstrap.js"></script>
+
+  <script src="https://layouts.stacksavings.com/necklace-moon-engagement/js/vendor/jquery.flexisel.js"></script>
+  <script src="https://layouts.stacksavings.com/necklace-moon-engagement/js/vendor/wow.min.js"></script>
+  <script src="https://layouts.stacksavings.com/necklace-moon-engagement/js/vendor/jquery.transit.js"></script>
+  <script src="https://layouts.stacksavings.com/necklace-moon-engagement/js/vendor/jquery.jcountdown.js"></script>
+  <script src="https://layouts.stacksavings.com/necklace-moon-engagement/js/vendor/jquery.appear.js"></script>
+  <script src="https://layouts.stacksavings.com/necklace-moon-engagement/js/vendor/owl.carousel.js"></script>
+
+  <script src="https://layouts.stacksavings.com/necklace-moon-engagement/js/vendor/responsiveslides.min.js"></script>
+  <script src="https://layouts.stacksavings.com/necklace-moon-engagement/js/vendor/jquery.elevateZoom-3.0.8.min.js"></script>
+
+  <script type="text/javascript" src="https://layouts.stacksavings.com/necklace-moon-engagement/js/vendor/jquery.themepunch.plugins.min.js"></script>
+  <script type="text/javascript" src="https://layouts.stacksavings.com/necklace-moon-engagement/js/vendor/jquery.themepunch.revolution.min.js"></script>
+  <script type="text/javascript" src="https://layouts.stacksavings.com/necklace-moon-engagement/js/vendor/jquery.scrollTo-1.4.2-min.js"></script>
+
+  <script src="https://layouts.stacksavings.com/necklace-moon-engagement/js/main.js?2"></script>
+
+  </body>
+</html>

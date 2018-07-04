@@ -1,0 +1,321 @@
+{
+	"header": {
+		"groupDisplayName": "Header",
+		"titleHeader1": {
+			"showInputField": true,
+			"content": "StackSavings"
+		},
+		"logo": {
+			"showInputField": true,
+			"content": "StackSavings"
+		},
+		"titleHeader2": {
+			"showInputField": true,
+			"content": "Detalles del Producto"
+		}
+	},
+	"product": {
+		"groupDisplayName": "Product",
+		"gallery": {
+			"small": {
+				"smallImg1": {
+					"showInputField": true,
+					"content": "http://layouts.stacksavings.com/necklace-moon-engagement/img/products/1_65x85.jpg?1"
+				},
+				"smallImg2": {
+					"showInputField": true,
+					"content": "http://layouts.stacksavings.com/necklace-moon-engagement/img/products/2_65x85.jpg?1?1"
+				},
+				"smallImg3": {
+					"showInputField": true,
+					"content": "http://layouts.stacksavings.com/necklace-moon-engagement/img/products/3_65x85.jpg?1"
+				}
+			},
+			"large": {
+				"largeImg1": {
+					"showInputField": true,
+					"content": "http://layouts.stacksavings.com/necklace-moon-engagement/img/products/1_640x640.jpg?1"
+				},
+				"largeImg2": {
+					"showInputField": true,
+					"content": "http://layouts.stacksavings.com/necklace-moon-engagement/img/products/2_640x640.jpg?1"
+				},
+				"largeImg3": {
+					"showInputField": true,
+					"content": "http://layouts.stacksavings.com/necklace-moon-engagement/img/products/3_640x640.jpg?1"
+				}
+			}
+		},
+		"overview": {
+			"title1": {
+				"showInputField": true,
+				"content": "Hermoso collar de luna que brilla en la oscuridad"
+			},
+			"review": {
+				"showInputField": true,
+				"content": "281 calificaciones"
+			},
+			"brand": {
+				"showInputField": true,
+				"content": "StackSavings"
+			},
+			"collection": {
+				"showInputField": true,
+				"content": "Mujer"
+			},
+			"code": {
+				"showInputField": true,
+				"content": "MN-0012"
+			},
+			"size": {
+				"item1": {
+					"showInputField": true,
+					"content": "Bronce"
+				},
+				"item2": {
+					"showInputField": true,
+					"content": "Plata"
+				},
+				"item3": {
+					"showInputField": true,
+					"content": "Negro"
+				}
+			},
+			"availability": {
+				"showInputField": true,
+				"content": "10516 piezas disponibles"
+			},
+			"overviewDescription": {
+				"showInputField": true,
+				"content": "Hermoso collar de luna hecho a mano que brilla intensamente en la oscuridad."
+			},
+			"price": {
+				"showInputField": true,
+				"content": "240 mexican peso"
+			},
+			"total": {
+				"showInputField": true,
+				"content": "240 mexican peso"
+			},
+			"btn1": {
+				"showInputField": true,
+				"content": "Agregar"
+			}
+		},
+		"detail": {
+			"nav": {
+				"navItem1": {
+					"showInputField": true,
+					"content": "Descripción"
+				},
+				"navItem2": {
+					"showInputField": true,
+					"content": "Adicional"
+				},
+				"navItem3": {
+					"showInputField": true,
+					"content": "Calificaciones"
+				}
+			},
+			"description": {
+				"title2": {
+					"showInputField": true,
+					"content": "Detalles del producto"
+				},
+				"detailContent": {
+					"showInputField": true,
+					"content": "Collar de luna hecho a mano que brilla en la oscuridad. Disponible en varios colores.",
+					"type": "markdown"
+				}
+			},
+			"additional": {
+				"sizes": {
+					"title3": {
+						"showInputField": true,
+						"content": "Tamaños"
+					},
+					"additionalContent": {
+						"showInputField": true,
+						"content": "Luce un hermoso collar de luna y sientete diferente."
+					}
+				},
+				"colors": {
+					"title4": {
+						"showInputField": true,
+						"content": "Colores"
+					},
+					"content": {
+						"showInputField": true,
+						"content": ""
+					}
+				},
+				"other": {
+					"title5": {
+						"showInputField": true,
+						"content": "Otros"
+					},
+					"otherContent": {
+						"showInputField": true,
+						"content": "Puedes colocar un número de contacto para que sea usado en caso de que se pierda tu mascota."
+					}
+				}
+			},
+			"review": {
+				"title6": {
+					"showInputField": true,
+					"content": "Calificaciones de los clientes"
+				},
+				"clients": {
+					"client1": {
+						"name1": {
+							"showInputField": true,
+							"content": "Ana Fernández"
+						},
+						"date1": {
+							"showInputField": true,
+							"content": "02/06/2018"
+						},
+						"opinion1": {
+							"showInputField": true,
+							"content": "Me encantó, es de muy buen material y luce bellisimo."
+						}
+					},
+					"client2": {
+						"name2": {
+							"showInputField": true,
+							"content": ""
+						},
+						"date2": {
+							"showInputField": true,
+							"content": ""
+						},
+						"opinion2": {
+							"showInputField": true,
+							"content": ""
+						}
+					}
+				},
+				"form": {
+					"name3": {
+						"showInputField": true,
+						"content": "Primer nombre:"
+					},
+					"company": {
+						"showInputField": true,
+						"content": "Compañía:"
+					},
+					"rate": {
+						"showInputField": true,
+						"content": "Tu calificación:"
+					},
+					"btn2": {
+						"showInputField": true,
+						"content": "Agregar calificación"
+					}
+				}
+			}
+		}
+	},
+	"footer": {
+		"groupDisplayName": "Footer",
+		"column1": {
+			"block1": {
+				"title1": {
+					"showInputField": true,
+					"content": "Hermoso collar de luna que brilla en la oscuridad"
+				},
+				"footerParagraph": {
+					"showInputField": true,
+					"content": "Somos una empresa de América Latina que ofrece servicios y productos que se adaptan a la necesidad del cliente.",
+					"type": "markdown"
+				}
+			}
+		},
+		"column2": {
+			"block1": {
+				"title2": {
+					"showInputField": true,
+					"content": "Detalles del producto"
+				},
+				"links": {
+					"link1": {
+						"text1": {
+							"showInputField": true,
+							"content": "Sobre nosotros"
+						},
+						"url1": {
+							"showInputField": true,
+							"content": ""
+						}
+					},
+					"link2": {
+						"text2": {
+							"showInputField": true,
+							"content": "Contáctanos"
+						},
+						"url2": {
+							"showInputField": true,
+							"content": ""
+						}
+					},
+					"link3": {
+						"text3": {
+							"showInputField": true,
+							"content": "Información de envío"
+						},
+						"url3": {
+							"showInputField": true,
+							"content": ""
+						}
+					},
+					"link4": {
+						"text4": {
+							"showInputField": true,
+							"content": "Política de privacidad"
+						},
+						"url4": {
+							"showInputField": true,
+							"content": ""
+						}
+					},
+					"link5": {
+						"text5": {
+							"showInputField": true,
+							"content": "Términos y condiciones"
+						},
+						"url5": {
+							"showInputField": true,
+							"content": ""
+						}
+					},
+					"link6": {
+						"text6": {
+							"showInputField": true,
+							"content": "Mapa del sitio"
+						},
+						"url6": {
+							"showInputField": true,
+							"content": ""
+						}
+					},
+					"link7": {
+						"text7": {
+							"showInputField": true,
+							"content": "Regresar"
+						},
+						"url7": {
+							"showInputField": true,
+							"content": ""
+						}
+					}
+				}
+			}
+		},
+		"copyright": {
+			"text": {
+				"showInputField": true,
+				"content": "Copyright © 2018  StackSavings"
+			}
+		}
+	}
+}
