@@ -16,6 +16,24 @@
 	},
 	"product": {
 		"groupDisplayName": "Product",
+		"Snipcart": {
+			"SnipcartId": {
+				"showInputField": true,
+				"content": "1"
+			},
+			"SnipcartName": {
+				"showInputField": true,
+				"content": "Collar de Luna que brilla"
+			},
+			"SnipcartPrice": {
+				"showInputField": true,
+				"content": "5.00"
+			},
+			"SnipcartUrl": {
+				"showInputField": true,
+				"content": "https://snipcart.com/medalla"
+			}
+		},
 		"gallery": {
 			"small": {
 				"smallImg1": {
@@ -91,11 +109,11 @@
 			},
 			"price": {
 				"showInputField": true,
-				"content": "240 mexican peso"
+				"content": "240 pesos mexicanos"
 			},
 			"total": {
 				"showInputField": true,
-				"content": "240 mexican peso"
+				"content": "240 pesos mexicanos"
 			},
 			"btn1": {
 				"showInputField": true,
@@ -124,7 +142,7 @@
 				},
 				"detailContent": {
 					"showInputField": true,
-					"content": "Collar de luna hecho a mano que brilla en la oscuridad. Disponible en varios colores.",
+					"content": "Collar de luna hecho a mano que brilla en la oscuridad. Disponible en plata, negro, bronce y cobre.",
 					"type": "markdown"
 				}
 			},
