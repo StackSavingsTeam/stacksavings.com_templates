@@ -27,7 +27,7 @@
 			},
 			"SnipcartPrice": {
 				"showInputField": true,
-				"content": "5.00"
+				"content": "12.00"
 			},
 			"SnipcartUrl": {
 				"showInputField": true,
@@ -113,7 +113,7 @@
 			},
 			"total": {
 				"showInputField": true,
-				"content": "240 pesos mexicanos"
+				"content": "12 USD"
 			},
 			"btn1": {
 				"showInputField": true,
